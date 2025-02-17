@@ -123,7 +123,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CadastroDeImoveisForm.cpp" />
-    <ClCompile Include="CheckListForm.cpp" />
     <ClCompile Include="ConfigBancoForm.cpp" />
     <ClCompile Include="EditarForm.cpp" />
     <ClCompile Include="Excluirform.cpp" />

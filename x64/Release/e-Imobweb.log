@@ -1,7 +1,12 @@
-﻿  Program.cpp
-C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\CadastroDeImoveisForm.h(1822,2): warning C4102: 'eImobweb': rótulo não referenciado
+﻿  CadastroDeImoveisForm.cpp
+  Program.cpp
+C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\CadastroDeImoveisForm.h(1821,2): warning C4102: 'eImobweb': rótulo não referenciado
+  (compilando o arquivo fonte 'CadastroDeImoveisForm.cpp')
+  
+C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\CadastroDeImoveisForm.h(1821,2): warning C4102: 'eImobweb': rótulo não referenciado
   (compilando o arquivo fonte 'Program.cpp')
   
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\Program.cpp(21,6): warning C4829: Parâmetros possivelmente incorretos para função main. Considere o uso de 'int main(Platform::Array<Platform::String^>^ argv)'
+  Gerando Código...
   CadastroDeImoveisForm.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
   e-Imobweb.vcxproj -> C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\x64\Release\e-Imobweb.exe
