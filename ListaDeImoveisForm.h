@@ -191,6 +191,8 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->TipoNegocio = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->valor = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->panel3 = (gcnew System::Windows::Forms::Panel());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
 			this->buttonFiltrar = (gcnew System::Windows::Forms::Button());
 			this->cBPretencaoFiltro = (gcnew System::Windows::Forms::ComboBox());
 			this->cBTipoImovelFiltro = (gcnew System::Windows::Forms::ComboBox());
@@ -202,14 +204,12 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->tBTelefoneFiltro = (gcnew System::Windows::Forms::TextBox());
 			this->tBnomeFiltro = (gcnew System::Windows::Forms::TextBox());
 			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->panel3->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
 			this->panel2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// panel1
@@ -453,6 +453,26 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->panel3->Size = System::Drawing::Size(1904, 868);
 			this->panel3->TabIndex = 1;
 			// 
+			// panel2
+			// 
+			this->panel2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->panel2->Controls->Add(this->dataGridView2);
+			this->panel2->Location = System::Drawing::Point(964, 154);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(938, 712);
+			this->panel2->TabIndex = 62;
+			// 
+			// dataGridView2
+			// 
+			this->dataGridView2->BackgroundColor = System::Drawing::SystemColors::Window;
+			this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridView2->GridColor = System::Drawing::SystemColors::MenuHighlight;
+			this->dataGridView2->Location = System::Drawing::Point(-2, -2);
+			this->dataGridView2->Name = L"dataGridView2";
+			this->dataGridView2->Size = System::Drawing::Size(938, 737);
+			this->dataGridView2->TabIndex = 61;
+			this->dataGridView2->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &ListaDeImoveisForm::dataGridView2_CellContentClick);
+			// 
 			// buttonFiltrar
 			// 
 			this->buttonFiltrar->Font = (gcnew System::Drawing::Font(L"Arial Rounded MT Bold", 9.25F));
@@ -558,26 +578,6 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->label7->TabIndex = 50;
 			this->label7->Text = L"Id do cliente";
 			// 
-			// dataGridView2
-			// 
-			this->dataGridView2->BackgroundColor = System::Drawing::SystemColors::Window;
-			this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dataGridView2->GridColor = System::Drawing::SystemColors::MenuHighlight;
-			this->dataGridView2->Location = System::Drawing::Point(-2, 0);
-			this->dataGridView2->Name = L"dataGridView2";
-			this->dataGridView2->Size = System::Drawing::Size(938, 735);
-			this->dataGridView2->TabIndex = 61;
-			this->dataGridView2->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &ListaDeImoveisForm::dataGridView2_CellContentClick);
-			// 
-			// panel2
-			// 
-			this->panel2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel2->Controls->Add(this->dataGridView2);
-			this->panel2->Location = System::Drawing::Point(964, 129);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(938, 737);
-			this->panel2->TabIndex = 62;
-			// 
 			// ListaDeImoveisForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -596,8 +596,8 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->panel3->ResumeLayout(false);
 			this->panel3->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
 			this->panel2->ResumeLayout(false);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
 			this->ResumeLayout(false);
 
 		}
