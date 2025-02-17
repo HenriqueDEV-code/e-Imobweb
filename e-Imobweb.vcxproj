@@ -137,9 +137,6 @@
     <ClInclude Include="CadastroDeImoveisForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="CheckListForm.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="ConfigBancoForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -166,9 +163,6 @@
   <ItemGroup>
     <EmbeddedResource Include="CadastroDeImoveisForm.resx">
       <DependentUpon>CadastroDeImoveisForm.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CheckListForm.resx">
-      <DependentUpon>CheckListForm.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConfigBancoForm.resx">
       <DependentUpon>ConfigBancoForm.h</DependentUpon>

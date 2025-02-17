@@ -6,7 +6,6 @@
 #include "ImobiliariaForm.h"
 #include "ConfigBancoForm.h" 
 #include "EditarForm.h"
-#include "CheckListForm.h"
 #include "VendasForm.h"
 #include "RelatorioForm.h"
 
@@ -116,11 +115,6 @@ void main(array<String^>^ args)
     {
         eImobweb::EditarForm^ Editar = gcnew eImobweb::EditarForm();
         Editar->Show(); // Exibe a janela de imobiliária
-    }
-    if (Cadastro->switchToCheckList)
-    {
-        eImobweb::CheckListForm^ CheckList = gcnew eImobweb::CheckListForm();
-        CheckList->Show(); // Exibe a janela de imobiliária
     }
     if (Cadastro->switchToVenda)
     {

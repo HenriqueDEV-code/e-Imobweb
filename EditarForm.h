@@ -360,19 +360,17 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->panel1->Controls->Add(this->pictureBox3);
 			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
 			this->panel1->Location = System::Drawing::Point(0, 0);
-			this->panel1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1923, 122);
+			this->panel1->Size = System::Drawing::Size(1442, 100);
 			this->panel1->TabIndex = 0;
 			// 
 			// label2
 			// 
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(253, 18);
-			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label2->Location = System::Drawing::Point(190, 15);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(1573, 81);
+			this->label2->Size = System::Drawing::Size(1180, 66);
 			this->label2->TabIndex = 2;
 			this->label2->Text = L"Editar Cadastro";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -381,10 +379,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->pictureBox3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(13, 12);
-			this->pictureBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox3->Location = System::Drawing::Point(10, 10);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(128, 91);
+			this->pictureBox3->Size = System::Drawing::Size(97, 75);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox3->TabIndex = 1;
 			this->pictureBox3->TabStop = false;
@@ -398,10 +395,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->panel2->Controls->Add(this->panel6);
 			this->panel2->Controls->Add(this->label9);
 			this->panel2->Dock = System::Windows::Forms::DockStyle::Left;
-			this->panel2->Location = System::Drawing::Point(0, 122);
-			this->panel2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel2->Location = System::Drawing::Point(0, 100);
 			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(1037, 671);
+			this->panel2->Size = System::Drawing::Size(779, 551);
 			this->panel2->TabIndex = 1;
 			// 
 			// buttonConcluirCliente
@@ -409,10 +405,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->buttonConcluirCliente->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
 			this->buttonConcluirCliente->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"buttonConcluirCliente.Image")));
 			this->buttonConcluirCliente->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->buttonConcluirCliente->Location = System::Drawing::Point(849, 590);
-			this->buttonConcluirCliente->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->buttonConcluirCliente->Location = System::Drawing::Point(637, 479);
 			this->buttonConcluirCliente->Name = L"buttonConcluirCliente";
-			this->buttonConcluirCliente->Size = System::Drawing::Size(151, 57);
+			this->buttonConcluirCliente->Size = System::Drawing::Size(113, 46);
 			this->buttonConcluirCliente->TabIndex = 91;
 			this->buttonConcluirCliente->Text = L"Concluir";
 			this->buttonConcluirCliente->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
@@ -425,10 +420,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label5->ForeColor = System::Drawing::Color::Black;
-			this->label5->Location = System::Drawing::Point(24, 143);
-			this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label5->Location = System::Drawing::Point(18, 116);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(130, 29);
+			this->label5->Size = System::Drawing::Size(101, 24);
 			this->label5->TabIndex = 63;
 			this->label5->Text = L"Formulário";
 			// 
@@ -460,28 +454,25 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->panel7->Controls->Add(this->label13);
 			this->panel7->Controls->Add(this->label12);
 			this->panel7->Controls->Add(this->label11);
-			this->panel7->Location = System::Drawing::Point(29, 174);
-			this->panel7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel7->Location = System::Drawing::Point(25, 141);
 			this->panel7->Name = L"panel7";
-			this->panel7->Size = System::Drawing::Size(971, 408);
+			this->panel7->Size = System::Drawing::Size(729, 332);
 			this->panel7->TabIndex = 62;
 			// 
 			// panel23
 			// 
 			this->panel23->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel23->Controls->Add(this->tBvalorClienteEd);
-			this->panel23->Location = System::Drawing::Point(709, 206);
-			this->panel23->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel23->Location = System::Drawing::Point(532, 167);
 			this->panel23->Name = L"panel23";
-			this->panel23->Size = System::Drawing::Size(187, 24);
+			this->panel23->Size = System::Drawing::Size(141, 20);
 			this->panel23->TabIndex = 96;
 			// 
 			// tBvalorClienteEd
 			// 
-			this->tBvalorClienteEd->Location = System::Drawing::Point(-3, -2);
-			this->tBvalorClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBvalorClienteEd->Location = System::Drawing::Point(-2, -2);
 			this->tBvalorClienteEd->Name = L"tBvalorClienteEd";
-			this->tBvalorClienteEd->Size = System::Drawing::Size(187, 22);
+			this->tBvalorClienteEd->Size = System::Drawing::Size(141, 20);
 			this->tBvalorClienteEd->TabIndex = 94;
 			this->tBvalorClienteEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBvalorClienteEd_TextChanged);
 			// 
@@ -490,10 +481,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label8->AutoSize = true;
 			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label8->Location = System::Drawing::Point(639, 201);
-			this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label8->Location = System::Drawing::Point(479, 163);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(69, 29);
+			this->label8->Size = System::Drawing::Size(54, 24);
 			this->label8->TabIndex = 95;
 			this->label8->Text = L"Valor";
 			// 
@@ -501,10 +491,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->linkLabelValidarCep->Anchor = System::Windows::Forms::AnchorStyles::Left;
 			this->linkLabelValidarCep->AutoSize = true;
-			this->linkLabelValidarCep->Location = System::Drawing::Point(841, 116);
-			this->linkLabelValidarCep->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->linkLabelValidarCep->Location = System::Drawing::Point(631, 94);
 			this->linkLabelValidarCep->Name = L"linkLabelValidarCep";
-			this->linkLabelValidarCep->Size = System::Drawing::Size(91, 16);
+			this->linkLabelValidarCep->Size = System::Drawing::Size(72, 13);
 			this->linkLabelValidarCep->TabIndex = 93;
 			this->linkLabelValidarCep->TabStop = true;
 			this->linkLabelValidarCep->Text = L"Validar o CEP";
@@ -514,18 +503,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel22->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel22->Controls->Add(this->tBCEP);
-			this->panel22->Location = System::Drawing::Point(661, 112);
-			this->panel22->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel22->Location = System::Drawing::Point(496, 91);
 			this->panel22->Name = L"panel22";
-			this->panel22->Size = System::Drawing::Size(171, 24);
+			this->panel22->Size = System::Drawing::Size(129, 20);
 			this->panel22->TabIndex = 92;
 			// 
 			// tBCEP
 			// 
-			this->tBCEP->Location = System::Drawing::Point(-3, -2);
-			this->tBCEP->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBCEP->Location = System::Drawing::Point(-2, -2);
 			this->tBCEP->Name = L"tBCEP";
-			this->tBCEP->Size = System::Drawing::Size(171, 22);
+			this->tBCEP->Size = System::Drawing::Size(129, 20);
 			this->tBCEP->TabIndex = 77;
 			// 
 			// label4
@@ -533,10 +520,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label4->Location = System::Drawing::Point(599, 108);
-			this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label4->Location = System::Drawing::Point(449, 88);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(62, 29);
+			this->label4->Size = System::Drawing::Size(48, 24);
 			this->label4->TabIndex = 91;
 			this->label4->Text = L"CEP";
 			// 
@@ -544,36 +530,32 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel19->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel19->Controls->Add(this->tBComplementoClienteEd);
-			this->panel19->Location = System::Drawing::Point(749, 160);
-			this->panel19->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel19->Location = System::Drawing::Point(565, 130);
 			this->panel19->Name = L"panel19";
-			this->panel19->Size = System::Drawing::Size(184, 24);
+			this->panel19->Size = System::Drawing::Size(139, 20);
 			this->panel19->TabIndex = 90;
 			// 
 			// tBComplementoClienteEd
 			// 
-			this->tBComplementoClienteEd->Location = System::Drawing::Point(-3, -2);
-			this->tBComplementoClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBComplementoClienteEd->Location = System::Drawing::Point(-2, -2);
 			this->tBComplementoClienteEd->Name = L"tBComplementoClienteEd";
-			this->tBComplementoClienteEd->Size = System::Drawing::Size(184, 22);
+			this->tBComplementoClienteEd->Size = System::Drawing::Size(139, 20);
 			this->tBComplementoClienteEd->TabIndex = 80;
 			// 
 			// panel18
 			// 
 			this->panel18->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel18->Controls->Add(this->tBNumeroClienteEd);
-			this->panel18->Location = System::Drawing::Point(491, 160);
-			this->panel18->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel18->Location = System::Drawing::Point(371, 130);
 			this->panel18->Name = L"panel18";
-			this->panel18->Size = System::Drawing::Size(87, 24);
+			this->panel18->Size = System::Drawing::Size(66, 20);
 			this->panel18->TabIndex = 89;
 			// 
 			// tBNumeroClienteEd
 			// 
-			this->tBNumeroClienteEd->Location = System::Drawing::Point(-3, -2);
-			this->tBNumeroClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBNumeroClienteEd->Location = System::Drawing::Point(-2, -2);
 			this->tBNumeroClienteEd->Name = L"tBNumeroClienteEd";
-			this->tBNumeroClienteEd->Size = System::Drawing::Size(87, 22);
+			this->tBNumeroClienteEd->Size = System::Drawing::Size(66, 20);
 			this->tBNumeroClienteEd->TabIndex = 79;
 			this->tBNumeroClienteEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBNumeroClienteEd_TextChanged);
 			// 
@@ -581,19 +563,17 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel17->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel17->Controls->Add(this->tBRuaClienteEd);
-			this->panel17->Location = System::Drawing::Point(133, 160);
-			this->panel17->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel17->Location = System::Drawing::Point(100, 130);
 			this->panel17->Name = L"panel17";
-			this->panel17->Size = System::Drawing::Size(252, 24);
+			this->panel17->Size = System::Drawing::Size(190, 20);
 			this->panel17->TabIndex = 88;
 			// 
 			// tBRuaClienteEd
 			// 
-			this->tBRuaClienteEd->Location = System::Drawing::Point(-3, -2);
-			this->tBRuaClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBRuaClienteEd->Location = System::Drawing::Point(-2, -2);
 			this->tBRuaClienteEd->Name = L"tBRuaClienteEd";
 			this->tBRuaClienteEd->ReadOnly = true;
-			this->tBRuaClienteEd->Size = System::Drawing::Size(253, 22);
+			this->tBRuaClienteEd->Size = System::Drawing::Size(191, 20);
 			this->tBRuaClienteEd->TabIndex = 78;
 			this->tBRuaClienteEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBRuaClienteEd_TextChanged);
 			// 
@@ -601,19 +581,17 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel16->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel16->Controls->Add(this->tBBairroClienteEd);
-			this->panel16->Location = System::Drawing::Point(419, 112);
-			this->panel16->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel16->Location = System::Drawing::Point(317, 91);
 			this->panel16->Name = L"panel16";
-			this->panel16->Size = System::Drawing::Size(171, 24);
+			this->panel16->Size = System::Drawing::Size(129, 20);
 			this->panel16->TabIndex = 87;
 			// 
 			// tBBairroClienteEd
 			// 
-			this->tBBairroClienteEd->Location = System::Drawing::Point(-3, -2);
-			this->tBBairroClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBBairroClienteEd->Location = System::Drawing::Point(-2, -2);
 			this->tBBairroClienteEd->Name = L"tBBairroClienteEd";
 			this->tBBairroClienteEd->ReadOnly = true;
-			this->tBBairroClienteEd->Size = System::Drawing::Size(171, 22);
+			this->tBBairroClienteEd->Size = System::Drawing::Size(129, 20);
 			this->tBBairroClienteEd->TabIndex = 77;
 			this->tBBairroClienteEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBBairroClienteEd_TextChanged);
 			// 
@@ -621,19 +599,17 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel15->Controls->Add(this->tBCidadeClienteEd);
-			this->panel15->Location = System::Drawing::Point(89, 112);
-			this->panel15->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel15->Location = System::Drawing::Point(70, 91);
 			this->panel15->Name = L"panel15";
-			this->panel15->Size = System::Drawing::Size(244, 24);
+			this->panel15->Size = System::Drawing::Size(184, 20);
 			this->panel15->TabIndex = 86;
 			// 
 			// tBCidadeClienteEd
 			// 
-			this->tBCidadeClienteEd->Location = System::Drawing::Point(-3, -2);
-			this->tBCidadeClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBCidadeClienteEd->Location = System::Drawing::Point(-2, -2);
 			this->tBCidadeClienteEd->Name = L"tBCidadeClienteEd";
 			this->tBCidadeClienteEd->ReadOnly = true;
-			this->tBCidadeClienteEd->Size = System::Drawing::Size(244, 22);
+			this->tBCidadeClienteEd->Size = System::Drawing::Size(184, 20);
 			this->tBCidadeClienteEd->TabIndex = 76;
 			this->tBCidadeClienteEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBCidadeClienteEd_TextChanged);
 			// 
@@ -641,18 +617,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel14->Controls->Add(this->tBTelefoneClienteEd);
-			this->panel14->Location = System::Drawing::Point(108, 65);
-			this->panel14->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel14->Location = System::Drawing::Point(87, 53);
 			this->panel14->Name = L"panel14";
-			this->panel14->Size = System::Drawing::Size(191, 24);
+			this->panel14->Size = System::Drawing::Size(144, 20);
 			this->panel14->TabIndex = 85;
 			// 
 			// tBTelefoneClienteEd
 			// 
-			this->tBTelefoneClienteEd->Location = System::Drawing::Point(-3, -1);
-			this->tBTelefoneClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBTelefoneClienteEd->Location = System::Drawing::Point(1, -1);
 			this->tBTelefoneClienteEd->Name = L"tBTelefoneClienteEd";
-			this->tBTelefoneClienteEd->Size = System::Drawing::Size(191, 22);
+			this->tBTelefoneClienteEd->Size = System::Drawing::Size(144, 20);
 			this->tBTelefoneClienteEd->TabIndex = 75;
 			this->tBTelefoneClienteEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBTelefoneClienteEd_TextChanged);
 			// 
@@ -660,18 +634,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel13->Controls->Add(this->tBNomeClienteEd);
-			this->panel13->Location = System::Drawing::Point(81, 18);
-			this->panel13->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel13->Location = System::Drawing::Point(64, 15);
 			this->panel13->Name = L"panel13";
-			this->panel13->Size = System::Drawing::Size(196, 24);
+			this->panel13->Size = System::Drawing::Size(148, 20);
 			this->panel13->TabIndex = 84;
 			// 
 			// tBNomeClienteEd
 			// 
-			this->tBNomeClienteEd->Location = System::Drawing::Point(-3, -2);
-			this->tBNomeClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBNomeClienteEd->Location = System::Drawing::Point(-2, -2);
 			this->tBNomeClienteEd->Name = L"tBNomeClienteEd";
-			this->tBNomeClienteEd->Size = System::Drawing::Size(196, 22);
+			this->tBNomeClienteEd->Size = System::Drawing::Size(148, 20);
 			this->tBNomeClienteEd->TabIndex = 74;
 			this->tBNomeClienteEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBNomeClienteEd_TextChanged);
 			// 
@@ -679,29 +651,26 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel12->Controls->Add(this->tBDescricaoClienteEd);
-			this->panel12->Location = System::Drawing::Point(9, 278);
-			this->panel12->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel12->Location = System::Drawing::Point(7, 226);
 			this->panel12->Name = L"panel12";
-			this->panel12->Size = System::Drawing::Size(952, 109);
+			this->panel12->Size = System::Drawing::Size(715, 89);
 			this->panel12->TabIndex = 83;
 			// 
 			// tBDescricaoClienteEd
 			// 
-			this->tBDescricaoClienteEd->Location = System::Drawing::Point(-3, -6);
-			this->tBDescricaoClienteEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBDescricaoClienteEd->Location = System::Drawing::Point(-2, -3);
 			this->tBDescricaoClienteEd->Multiline = true;
 			this->tBDescricaoClienteEd->Name = L"tBDescricaoClienteEd";
-			this->tBDescricaoClienteEd->Size = System::Drawing::Size(952, 109);
+			this->tBDescricaoClienteEd->Size = System::Drawing::Size(715, 89);
 			this->tBDescricaoClienteEd->TabIndex = 92;
 			// 
 			// BXPretencao
 			// 
 			this->BXPretencao->FormattingEnabled = true;
 			this->BXPretencao->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Venda", L"Aluguel", L"Venda ou Aluguel" });
-			this->BXPretencao->Location = System::Drawing::Point(469, 204);
-			this->BXPretencao->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->BXPretencao->Location = System::Drawing::Point(355, 166);
 			this->BXPretencao->Name = L"BXPretencao";
-			this->BXPretencao->Size = System::Drawing::Size(160, 24);
+			this->BXPretencao->Size = System::Drawing::Size(121, 21);
 			this->BXPretencao->TabIndex = 82;
 			// 
 			// BXTipoImovel
@@ -711,10 +680,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 				L"Casa", L"Apartamento", L"Terreno", L"Kitnet",
 					L"Flat", L"Sobrado", L"Sítio", L"Rancho", L"Chácara"
 			});
-			this->BXTipoImovel->Location = System::Drawing::Point(178, 204);
-			this->BXTipoImovel->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->BXTipoImovel->Location = System::Drawing::Point(137, 166);
 			this->BXTipoImovel->Name = L"BXTipoImovel";
-			this->BXTipoImovel->Size = System::Drawing::Size(160, 24);
+			this->BXTipoImovel->Size = System::Drawing::Size(121, 21);
 			this->BXTipoImovel->TabIndex = 81;
 			// 
 			// label22
@@ -722,10 +690,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label22->AutoSize = true;
 			this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label22->Location = System::Drawing::Point(4, 246);
-			this->label22->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label22->Location = System::Drawing::Point(3, 200);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(121, 29);
+			this->label22->Size = System::Drawing::Size(94, 24);
 			this->label22->TabIndex = 73;
 			this->label22->Text = L"Descrição";
 			// 
@@ -734,10 +701,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label19->AutoSize = true;
 			this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label19->Location = System::Drawing::Point(353, 202);
-			this->label19->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label19->Location = System::Drawing::Point(265, 164);
 			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(123, 29);
+			this->label19->Size = System::Drawing::Size(95, 24);
 			this->label19->TabIndex = 71;
 			this->label19->Text = L"Pretensão";
 			// 
@@ -746,10 +712,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label18->AutoSize = true;
 			this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label18->Location = System::Drawing::Point(4, 204);
-			this->label18->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label18->Location = System::Drawing::Point(3, 166);
 			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(174, 29);
+			this->label18->Size = System::Drawing::Size(135, 24);
 			this->label18->TabIndex = 70;
 			this->label18->Text = L"Tipo de imóvel";
 			// 
@@ -758,10 +723,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label17->AutoSize = true;
 			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label17->Location = System::Drawing::Point(587, 156);
-			this->label17->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label17->Location = System::Drawing::Point(440, 127);
 			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(165, 29);
+			this->label17->Size = System::Drawing::Size(129, 24);
 			this->label17->TabIndex = 69;
 			this->label17->Text = L"Complemento";
 			// 
@@ -770,10 +734,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label16->AutoSize = true;
 			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label16->Location = System::Drawing::Point(395, 156);
-			this->label16->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label16->Location = System::Drawing::Point(296, 127);
 			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(100, 29);
+			this->label16->Size = System::Drawing::Size(79, 24);
 			this->label16->TabIndex = 68;
 			this->label16->Text = L"Número";
 			// 
@@ -782,10 +745,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label15->AutoSize = true;
 			this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label15->Location = System::Drawing::Point(4, 156);
-			this->label15->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label15->Location = System::Drawing::Point(3, 127);
 			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(151, 29);
+			this->label15->Size = System::Drawing::Size(119, 24);
 			this->label15->TabIndex = 67;
 			this->label15->Text = L"Lougradouro";
 			// 
@@ -794,10 +756,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label14->AutoSize = true;
 			this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label14->Location = System::Drawing::Point(343, 108);
-			this->label14->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label14->Location = System::Drawing::Point(257, 88);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(78, 29);
+			this->label14->Size = System::Drawing::Size(59, 24);
 			this->label14->TabIndex = 66;
 			this->label14->Text = L"Bairro";
 			// 
@@ -806,10 +767,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label13->AutoSize = true;
 			this->label13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label13->Location = System::Drawing::Point(4, 108);
-			this->label13->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label13->Location = System::Drawing::Point(3, 88);
 			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(91, 29);
+			this->label13->Size = System::Drawing::Size(70, 24);
 			this->label13->TabIndex = 65;
 			this->label13->Text = L"Cidade";
 			// 
@@ -818,10 +778,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label12->AutoSize = true;
 			this->label12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label12->Location = System::Drawing::Point(4, 62);
-			this->label12->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label12->Location = System::Drawing::Point(3, 50);
 			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(110, 29);
+			this->label12->Size = System::Drawing::Size(85, 24);
 			this->label12->TabIndex = 64;
 			this->label12->Text = L"Telefone";
 			// 
@@ -830,10 +789,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label11->AutoSize = true;
 			this->label11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label11->Location = System::Drawing::Point(4, 15);
-			this->label11->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label11->Location = System::Drawing::Point(3, 12);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(79, 29);
+			this->label11->Size = System::Drawing::Size(62, 24);
 			this->label11->TabIndex = 62;
 			this->label11->Text = L"Nome";
 			// 
@@ -844,10 +802,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->panel6->Controls->Add(this->panel21);
 			this->panel6->Controls->Add(this->label3);
 			this->panel6->Controls->Add(this->label21);
-			this->panel6->Location = System::Drawing::Point(6, 46);
-			this->panel6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel6->Location = System::Drawing::Point(4, 37);
 			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(1027, 77);
+			this->panel6->Size = System::Drawing::Size(771, 63);
 			this->panel6->TabIndex = 61;
 			// 
 			// button1
@@ -855,10 +812,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
 			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
 			this->button1->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button1->Location = System::Drawing::Point(423, 15);
-			this->button1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button1->Location = System::Drawing::Point(322, 12);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(112, 47);
+			this->button1->Size = System::Drawing::Size(84, 38);
 			this->button1->TabIndex = 92;
 			this->button1->Text = L"Buscar";
 			this->button1->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
@@ -869,18 +825,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel21->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel21->Controls->Add(this->tBIDClienteInfo);
-			this->panel21->Location = System::Drawing::Point(323, 26);
-			this->panel21->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel21->Location = System::Drawing::Point(247, 21);
 			this->panel21->Name = L"panel21";
-			this->panel21->Size = System::Drawing::Size(91, 22);
+			this->panel21->Size = System::Drawing::Size(69, 19);
 			this->panel21->TabIndex = 61;
 			// 
 			// tBIDClienteInfo
 			// 
-			this->tBIDClienteInfo->Location = System::Drawing::Point(-3, -4);
-			this->tBIDClienteInfo->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBIDClienteInfo->Location = System::Drawing::Point(-2, -3);
 			this->tBIDClienteInfo->Name = L"tBIDClienteInfo";
-			this->tBIDClienteInfo->Size = System::Drawing::Size(91, 22);
+			this->tBIDClienteInfo->Size = System::Drawing::Size(69, 20);
 			this->tBIDClienteInfo->TabIndex = 60;
 			this->tBIDClienteInfo->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBIDClienteInfo_TextChanged);
 			// 
@@ -889,10 +843,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(8, 22);
-			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label3->Location = System::Drawing::Point(6, 18);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(310, 29);
+			this->label3->Size = System::Drawing::Size(242, 24);
 			this->label3->TabIndex = 56;
 			this->label3->Text = L"Informe o código do Cliente";
 			// 
@@ -900,10 +853,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->label21->AutoSize = true;
 			this->label21->ForeColor = System::Drawing::Color::Red;
-			this->label21->Location = System::Drawing::Point(392, 9);
-			this->label21->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label21->Location = System::Drawing::Point(299, 7);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(12, 16);
+			this->label21->Size = System::Drawing::Size(11, 13);
 			this->label21->TabIndex = 58;
 			this->label21->Text = L"*";
 			// 
@@ -913,10 +865,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label9->ForeColor = System::Drawing::Color::Black;
-			this->label9->Location = System::Drawing::Point(331, 1);
-			this->label9->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label9->Location = System::Drawing::Point(248, 1);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(272, 29);
+			this->label9->Size = System::Drawing::Size(211, 24);
 			this->label9->TabIndex = 30;
 			this->label9->Text = L"Editar dados de Imóveis";
 			// 
@@ -928,12 +879,11 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->panel3->Controls->Add(this->panel8);
 			this->panel3->Controls->Add(this->panel9);
 			this->panel3->Controls->Add(this->label1);
-			this->panel3->Location = System::Drawing::Point(1039, 123);
-			this->panel3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
-			this->panel3->MaximumSize = System::Drawing::Size(996, 664);
-			this->panel3->MinimumSize = System::Drawing::Size(996, 664);
+			this->panel3->Location = System::Drawing::Point(779, 100);
+			this->panel3->MaximumSize = System::Drawing::Size(748, 540);
+			this->panel3->MinimumSize = System::Drawing::Size(748, 540);
 			this->panel3->Name = L"panel3";
-			this->panel3->Size = System::Drawing::Size(996, 664);
+			this->panel3->Size = System::Drawing::Size(748, 540);
 			this->panel3->TabIndex = 2;
 			// 
 			// buttonConcluirImobiliaria
@@ -941,10 +891,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->buttonConcluirImobiliaria->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
 			this->buttonConcluirImobiliaria->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"buttonConcluirImobiliaria.Image")));
 			this->buttonConcluirImobiliaria->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->buttonConcluirImobiliaria->Location = System::Drawing::Point(699, 441);
-			this->buttonConcluirImobiliaria->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->buttonConcluirImobiliaria->Location = System::Drawing::Point(524, 358);
 			this->buttonConcluirImobiliaria->Name = L"buttonConcluirImobiliaria";
-			this->buttonConcluirImobiliaria->Size = System::Drawing::Size(149, 57);
+			this->buttonConcluirImobiliaria->Size = System::Drawing::Size(112, 46);
 			this->buttonConcluirImobiliaria->TabIndex = 92;
 			this->buttonConcluirImobiliaria->Text = L"Concluir";
 			this->buttonConcluirImobiliaria->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
@@ -957,10 +906,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label6->ForeColor = System::Drawing::Color::Black;
-			this->label6->Location = System::Drawing::Point(13, 143);
-			this->label6->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label6->Location = System::Drawing::Point(10, 116);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(130, 29);
+			this->label6->Size = System::Drawing::Size(101, 24);
 			this->label6->TabIndex = 67;
 			this->label6->Text = L"Formulário";
 			// 
@@ -977,28 +925,25 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->panel8->Controls->Add(this->label24);
 			this->panel8->Controls->Add(this->label23);
 			this->panel8->Controls->Add(this->label20);
-			this->panel8->Location = System::Drawing::Point(19, 175);
-			this->panel8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel8->Location = System::Drawing::Point(14, 142);
 			this->panel8->Name = L"panel8";
-			this->panel8->Size = System::Drawing::Size(829, 258);
+			this->panel8->Size = System::Drawing::Size(623, 210);
 			this->panel8->TabIndex = 66;
 			// 
 			// panel20
 			// 
 			this->panel20->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel20->Controls->Add(this->tBNomeIResponsavelImobiliariaEd);
-			this->panel20->Location = System::Drawing::Point(260, 59);
-			this->panel20->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel20->Location = System::Drawing::Point(205, 48);
 			this->panel20->Name = L"panel20";
-			this->panel20->Size = System::Drawing::Size(208, 24);
+			this->panel20->Size = System::Drawing::Size(157, 20);
 			this->panel20->TabIndex = 93;
 			// 
 			// tBNomeIResponsavelImobiliariaEd
 			// 
-			this->tBNomeIResponsavelImobiliariaEd->Location = System::Drawing::Point(-3, -2);
-			this->tBNomeIResponsavelImobiliariaEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBNomeIResponsavelImobiliariaEd->Location = System::Drawing::Point(-2, -2);
 			this->tBNomeIResponsavelImobiliariaEd->Name = L"tBNomeIResponsavelImobiliariaEd";
-			this->tBNomeIResponsavelImobiliariaEd->Size = System::Drawing::Size(208, 22);
+			this->tBNomeIResponsavelImobiliariaEd->Size = System::Drawing::Size(157, 20);
 			this->tBNomeIResponsavelImobiliariaEd->TabIndex = 94;
 			this->tBNomeIResponsavelImobiliariaEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBNomeIResponsavelImobiliariaEd_TextChanged);
 			// 
@@ -1006,18 +951,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel11->Controls->Add(this->tBTelefoneImobiliariaEd);
-			this->panel11->Location = System::Drawing::Point(261, 112);
-			this->panel11->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel11->Location = System::Drawing::Point(209, 91);
 			this->panel11->Name = L"panel11";
-			this->panel11->Size = System::Drawing::Size(207, 24);
+			this->panel11->Size = System::Drawing::Size(156, 20);
 			this->panel11->TabIndex = 93;
 			// 
 			// tBTelefoneImobiliariaEd
 			// 
-			this->tBTelefoneImobiliariaEd->Location = System::Drawing::Point(-3, -2);
-			this->tBTelefoneImobiliariaEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBTelefoneImobiliariaEd->Location = System::Drawing::Point(-2, -2);
 			this->tBTelefoneImobiliariaEd->Name = L"tBTelefoneImobiliariaEd";
-			this->tBTelefoneImobiliariaEd->Size = System::Drawing::Size(207, 22);
+			this->tBTelefoneImobiliariaEd->Size = System::Drawing::Size(156, 20);
 			this->tBTelefoneImobiliariaEd->TabIndex = 94;
 			this->tBTelefoneImobiliariaEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBTelefoneImobiliariaEd_TextChanged);
 			// 
@@ -1025,18 +968,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel10->Controls->Add(this->tBValorImobiliariaEd);
-			this->panel10->Location = System::Drawing::Point(260, 154);
-			this->panel10->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel10->Location = System::Drawing::Point(208, 125);
 			this->panel10->Name = L"panel10";
-			this->panel10->Size = System::Drawing::Size(131, 24);
+			this->panel10->Size = System::Drawing::Size(99, 20);
 			this->panel10->TabIndex = 93;
 			// 
 			// tBValorImobiliariaEd
 			// 
-			this->tBValorImobiliariaEd->Location = System::Drawing::Point(-3, -2);
-			this->tBValorImobiliariaEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBValorImobiliariaEd->Location = System::Drawing::Point(-2, -2);
 			this->tBValorImobiliariaEd->Name = L"tBValorImobiliariaEd";
-			this->tBValorImobiliariaEd->Size = System::Drawing::Size(131, 22);
+			this->tBValorImobiliariaEd->Size = System::Drawing::Size(99, 20);
 			this->tBValorImobiliariaEd->TabIndex = 94;
 			this->tBValorImobiliariaEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBValorImobiliariaEd_TextChanged);
 			// 
@@ -1044,18 +985,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel5->Controls->Add(this->tBCreciImobiliariaEd);
-			this->panel5->Location = System::Drawing::Point(260, 198);
-			this->panel5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel5->Location = System::Drawing::Point(208, 161);
 			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(131, 24);
+			this->panel5->Size = System::Drawing::Size(99, 20);
 			this->panel5->TabIndex = 93;
 			// 
 			// tBCreciImobiliariaEd
 			// 
-			this->tBCreciImobiliariaEd->Location = System::Drawing::Point(-3, -2);
-			this->tBCreciImobiliariaEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBCreciImobiliariaEd->Location = System::Drawing::Point(-2, -2);
 			this->tBCreciImobiliariaEd->Name = L"tBCreciImobiliariaEd";
-			this->tBCreciImobiliariaEd->Size = System::Drawing::Size(131, 22);
+			this->tBCreciImobiliariaEd->Size = System::Drawing::Size(99, 20);
 			this->tBCreciImobiliariaEd->TabIndex = 77;
 			// 
 			// label26
@@ -1063,10 +1002,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label26->AutoSize = true;
 			this->label26->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label26->Location = System::Drawing::Point(187, 198);
-			this->label26->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label26->Location = System::Drawing::Point(140, 161);
 			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(70, 29);
+			this->label26->Size = System::Drawing::Size(54, 24);
 			this->label26->TabIndex = 75;
 			this->label26->Text = L"Creci";
 			// 
@@ -1074,18 +1012,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel4->Controls->Add(this->tBNomeImobiliariaEd);
-			this->panel4->Location = System::Drawing::Point(261, 18);
-			this->panel4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel4->Location = System::Drawing::Point(206, 15);
 			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(207, 24);
+			this->panel4->Size = System::Drawing::Size(156, 20);
 			this->panel4->TabIndex = 76;
 			// 
 			// tBNomeImobiliariaEd
 			// 
-			this->tBNomeImobiliariaEd->Location = System::Drawing::Point(-3, -2);
-			this->tBNomeImobiliariaEd->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBNomeImobiliariaEd->Location = System::Drawing::Point(-2, -2);
 			this->tBNomeImobiliariaEd->Name = L"tBNomeImobiliariaEd";
-			this->tBNomeImobiliariaEd->Size = System::Drawing::Size(207, 22);
+			this->tBNomeImobiliariaEd->Size = System::Drawing::Size(156, 20);
 			this->tBNomeImobiliariaEd->TabIndex = 77;
 			this->tBNomeImobiliariaEd->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBNomeImobiliariaEd_TextChanged);
 			// 
@@ -1094,10 +1030,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label25->AutoSize = true;
 			this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label25->Location = System::Drawing::Point(187, 154);
-			this->label25->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label25->Location = System::Drawing::Point(140, 125);
 			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(69, 29);
+			this->label25->Size = System::Drawing::Size(54, 24);
 			this->label25->TabIndex = 74;
 			this->label25->Text = L"Valor";
 			// 
@@ -1106,10 +1041,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label24->AutoSize = true;
 			this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label24->Location = System::Drawing::Point(151, 106);
-			this->label24->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label24->Location = System::Drawing::Point(113, 86);
 			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(116, 29);
+			this->label24->Size = System::Drawing::Size(90, 24);
 			this->label24->TabIndex = 70;
 			this->label24->Text = L"Telefone ";
 			// 
@@ -1118,10 +1052,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label23->AutoSize = true;
 			this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label23->Location = System::Drawing::Point(4, 59);
-			this->label23->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label23->Location = System::Drawing::Point(3, 48);
 			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(259, 29);
+			this->label23->Size = System::Drawing::Size(203, 24);
 			this->label23->TabIndex = 67;
 			this->label23->Text = L"Nome do Responsável";
 			// 
@@ -1130,10 +1063,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label20->AutoSize = true;
 			this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label20->Location = System::Drawing::Point(63, 15);
-			this->label20->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label20->Location = System::Drawing::Point(47, 12);
 			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(197, 29);
+			this->label20->Size = System::Drawing::Size(151, 24);
 			this->label20->TabIndex = 63;
 			this->label20->Text = L"Nome Imobiliária";
 			// 
@@ -1144,10 +1076,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->panel9->Controls->Add(this->panel24);
 			this->panel9->Controls->Add(this->label7);
 			this->panel9->Controls->Add(this->label10);
-			this->panel9->Location = System::Drawing::Point(9, 46);
-			this->panel9->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel9->Location = System::Drawing::Point(7, 37);
 			this->panel9->Name = L"panel9";
-			this->panel9->Size = System::Drawing::Size(857, 77);
+			this->panel9->Size = System::Drawing::Size(644, 63);
 			this->panel9->TabIndex = 65;
 			this->panel9->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &EditarForm::panel9_Paint);
 			// 
@@ -1156,10 +1087,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
 			this->button2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.Image")));
 			this->button2->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->button2->Location = System::Drawing::Point(444, 15);
-			this->button2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button2->Location = System::Drawing::Point(339, 12);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(114, 47);
+			this->button2->Size = System::Drawing::Size(86, 38);
 			this->button2->TabIndex = 93;
 			this->button2->Text = L"Buscar";
 			this->button2->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
@@ -1170,18 +1100,16 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->panel24->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel24->Controls->Add(this->tBIDNomeImobiliariaInfo);
-			this->panel24->Location = System::Drawing::Point(351, 31);
-			this->panel24->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel24->Location = System::Drawing::Point(269, 25);
 			this->panel24->Name = L"panel24";
-			this->panel24->Size = System::Drawing::Size(84, 22);
+			this->panel24->Size = System::Drawing::Size(64, 19);
 			this->panel24->TabIndex = 77;
 			// 
 			// tBIDNomeImobiliariaInfo
 			// 
-			this->tBIDNomeImobiliariaInfo->Location = System::Drawing::Point(-3, -4);
-			this->tBIDNomeImobiliariaInfo->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBIDNomeImobiliariaInfo->Location = System::Drawing::Point(-2, -3);
 			this->tBIDNomeImobiliariaInfo->Name = L"tBIDNomeImobiliariaInfo";
-			this->tBIDNomeImobiliariaInfo->Size = System::Drawing::Size(84, 22);
+			this->tBIDNomeImobiliariaInfo->Size = System::Drawing::Size(64, 20);
 			this->tBIDNomeImobiliariaInfo->TabIndex = 60;
 			this->tBIDNomeImobiliariaInfo->TextChanged += gcnew System::EventHandler(this, &EditarForm::tBIDNomeImobiliariaInfo_TextChanged);
 			// 
@@ -1190,10 +1118,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label7->AutoSize = true;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label7->Location = System::Drawing::Point(4, 26);
-			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label7->Location = System::Drawing::Point(3, 21);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(345, 29);
+			this->label7->Size = System::Drawing::Size(267, 24);
 			this->label7->TabIndex = 56;
 			this->label7->Text = L"Informe o código da imobiliária";
 			// 
@@ -1201,10 +1128,9 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			// 
 			this->label10->AutoSize = true;
 			this->label10->ForeColor = System::Drawing::Color::Red;
-			this->label10->Location = System::Drawing::Point(421, 12);
-			this->label10->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label10->Location = System::Drawing::Point(322, 10);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(12, 16);
+			this->label10->Size = System::Drawing::Size(11, 13);
 			this->label10->TabIndex = 58;
 			this->label10->Text = L"*";
 			// 
@@ -1214,25 +1140,23 @@ private: System::Windows::Forms::TextBox^ tBDescricaoClienteEd;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label1->ForeColor = System::Drawing::Color::Black;
-			this->label1->Location = System::Drawing::Point(372, 1);
-			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label1->Location = System::Drawing::Point(279, 1);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(301, 29);
+			this->label1->Size = System::Drawing::Size(231, 24);
 			this->label1->TabIndex = 31;
 			this->label1->Text = L"Editar dados de Imobiliária";
 			// 
 			// EditarForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1923, 793);
+			this->ClientSize = System::Drawing::Size(1442, 651);
 			this->Controls->Add(this->panel3);
 			this->Controls->Add(this->panel2);
 			this->Controls->Add(this->panel1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
-			this->MaximumSize = System::Drawing::Size(1941, 840);
-			this->MinimumSize = System::Drawing::Size(1917, 840);
+			this->MaximumSize = System::Drawing::Size(1460, 690);
+			this->MinimumSize = System::Drawing::Size(1442, 690);
 			this->Name = L"EditarForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"  e-Imobweb";

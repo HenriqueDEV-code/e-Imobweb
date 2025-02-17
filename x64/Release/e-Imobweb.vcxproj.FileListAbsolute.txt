@@ -11,7 +11,6 @@ D:\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\eImobweb.RelatorioFor
 D:\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\eImobweb.VendasForm.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\e-Imobweb.vcxproj.AssemblyReference.cache
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\eImobweb.CadastroDeImoveisForm.resources
-C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\eImobweb.CheckListForm.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\eImobweb.ConfigBancoForm.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\eImobweb.EditarForm.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Release\eImobweb.Excluirform.resources

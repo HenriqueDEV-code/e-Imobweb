@@ -139,19 +139,17 @@ namespace eImobweb {
 			this->panel1->Controls->Add(this->pictureBox3);
 			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
 			this->panel1->Location = System::Drawing::Point(0, 0);
-			this->panel1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1243, 122);
+			this->panel1->Size = System::Drawing::Size(934, 100);
 			this->panel1->TabIndex = 0;
 			// 
 			// label1
 			// 
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(243, 12);
-			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label1->Location = System::Drawing::Point(182, 10);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(676, 92);
+			this->label1->Size = System::Drawing::Size(507, 75);
 			this->label1->TabIndex = 2;
 			this->label1->Text = L"Exclui Cadastros";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -160,10 +158,9 @@ namespace eImobweb {
 			// 
 			this->pictureBox3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(13, 12);
-			this->pictureBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->pictureBox3->Location = System::Drawing::Point(10, 10);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(128, 91);
+			this->pictureBox3->Size = System::Drawing::Size(97, 75);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox3->TabIndex = 1;
 			this->pictureBox3->TabStop = false;
@@ -174,10 +171,9 @@ namespace eImobweb {
 			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label9->ForeColor = System::Drawing::Color::Black;
-			this->label9->Location = System::Drawing::Point(31, 156);
-			this->label9->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label9->Location = System::Drawing::Point(6, 127);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(174, 29);
+			this->label9->Size = System::Drawing::Size(137, 24);
 			this->label9->TabIndex = 29;
 			this->label9->Text = L"Excluir Imóveis";
 			// 
@@ -187,10 +183,9 @@ namespace eImobweb {
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label2->ForeColor = System::Drawing::Color::Black;
-			this->label2->Location = System::Drawing::Point(31, 282);
-			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label2->Location = System::Drawing::Point(6, 229);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(203, 29);
+			this->label2->Size = System::Drawing::Size(157, 24);
 			this->label2->TabIndex = 30;
 			this->label2->Text = L"Excluir Imobiliária";
 			// 
@@ -198,10 +193,9 @@ namespace eImobweb {
 			// 
 			this->label21->AutoSize = true;
 			this->label21->ForeColor = System::Drawing::Color::Red;
-			this->label21->Location = System::Drawing::Point(379, 0);
-			this->label21->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label21->Location = System::Drawing::Point(295, 0);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(12, 16);
+			this->label21->Size = System::Drawing::Size(11, 13);
 			this->label21->TabIndex = 53;
 			this->label21->Text = L"*";
 			// 
@@ -209,18 +203,16 @@ namespace eImobweb {
 			// 
 			this->panel2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel2->Controls->Add(this->tBidCliente);
-			this->panel2->Location = System::Drawing::Point(321, 20);
-			this->panel2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel2->Location = System::Drawing::Point(252, 16);
 			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(72, 24);
+			this->panel2->Size = System::Drawing::Size(55, 20);
 			this->panel2->TabIndex = 52;
 			// 
 			// tBidCliente
 			// 
-			this->tBidCliente->Location = System::Drawing::Point(0, -4);
-			this->tBidCliente->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBidCliente->Location = System::Drawing::Point(0, -3);
 			this->tBidCliente->Name = L"tBidCliente";
-			this->tBidCliente->Size = System::Drawing::Size(115, 22);
+			this->tBidCliente->Size = System::Drawing::Size(87, 20);
 			this->tBidCliente->TabIndex = 5;
 			// 
 			// label3
@@ -228,10 +220,9 @@ namespace eImobweb {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(13, 16);
-			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label3->Location = System::Drawing::Point(10, 13);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(310, 29);
+			this->label3->Size = System::Drawing::Size(242, 24);
 			this->label3->TabIndex = 51;
 			this->label3->Text = L"Informe o código do Cliente";
 			// 
@@ -240,10 +231,9 @@ namespace eImobweb {
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label4->Location = System::Drawing::Point(402, 16);
-			this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label4->Location = System::Drawing::Point(306, 14);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(89, 29);
+			this->label4->Size = System::Drawing::Size(68, 24);
 			this->label4->TabIndex = 54;
 			this->label4->Text = L"Cliente";
 			// 
@@ -251,18 +241,16 @@ namespace eImobweb {
 			// 
 			this->panel3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel3->Controls->Add(this->tBClienteProprietario);
-			this->panel3->Location = System::Drawing::Point(486, 20);
-			this->panel3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel3->Location = System::Drawing::Point(368, 17);
 			this->panel3->Name = L"panel3";
-			this->panel3->Size = System::Drawing::Size(239, 24);
+			this->panel3->Size = System::Drawing::Size(180, 20);
 			this->panel3->TabIndex = 55;
 			// 
 			// tBClienteProprietario
 			// 
-			this->tBClienteProprietario->Location = System::Drawing::Point(-3, -2);
-			this->tBClienteProprietario->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBClienteProprietario->Location = System::Drawing::Point(-2, -2);
 			this->tBClienteProprietario->Name = L"tBClienteProprietario";
-			this->tBClienteProprietario->Size = System::Drawing::Size(239, 22);
+			this->tBClienteProprietario->Size = System::Drawing::Size(180, 20);
 			this->tBClienteProprietario->TabIndex = 5;
 			// 
 			// bTExcluirCliente
@@ -271,10 +259,9 @@ namespace eImobweb {
 				static_cast<System::Byte>(0)));
 			this->bTExcluirCliente->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"bTExcluirCliente.Image")));
 			this->bTExcluirCliente->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->bTExcluirCliente->Location = System::Drawing::Point(1156, 209);
-			this->bTExcluirCliente->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->bTExcluirCliente->Location = System::Drawing::Point(867, 169);
 			this->bTExcluirCliente->Name = L"bTExcluirCliente";
-			this->bTExcluirCliente->Size = System::Drawing::Size(73, 47);
+			this->bTExcluirCliente->Size = System::Drawing::Size(55, 38);
 			this->bTExcluirCliente->TabIndex = 56;
 			this->bTExcluirCliente->Text = L"Excluir";
 			this->bTExcluirCliente->TextAlign = System::Drawing::ContentAlignment::BottomCenter;
@@ -285,18 +272,16 @@ namespace eImobweb {
 			// 
 			this->panel4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel4->Controls->Add(this->tBtelefoneCliente);
-			this->panel4->Location = System::Drawing::Point(827, 18);
-			this->panel4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel4->Location = System::Drawing::Point(626, 18);
 			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(267, 24);
+			this->panel4->Size = System::Drawing::Size(201, 20);
 			this->panel4->TabIndex = 57;
 			// 
 			// tBtelefoneCliente
 			// 
-			this->tBtelefoneCliente->Location = System::Drawing::Point(-3, -2);
-			this->tBtelefoneCliente->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBtelefoneCliente->Location = System::Drawing::Point(-2, -2);
 			this->tBtelefoneCliente->Name = L"tBtelefoneCliente";
-			this->tBtelefoneCliente->Size = System::Drawing::Size(265, 22);
+			this->tBtelefoneCliente->Size = System::Drawing::Size(200, 20);
 			this->tBtelefoneCliente->TabIndex = 5;
 			// 
 			// label5
@@ -304,10 +289,9 @@ namespace eImobweb {
 			this->label5->AutoSize = true;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label5->Location = System::Drawing::Point(734, 15);
-			this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label5->Location = System::Drawing::Point(556, 15);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(110, 29);
+			this->label5->Size = System::Drawing::Size(85, 24);
 			this->label5->TabIndex = 58;
 			this->label5->Text = L"Telefone";
 			// 
@@ -321,10 +305,9 @@ namespace eImobweb {
 			this->panel5->Controls->Add(this->label21);
 			this->panel5->Controls->Add(this->label4);
 			this->panel5->Controls->Add(this->panel3);
-			this->panel5->Location = System::Drawing::Point(36, 187);
-			this->panel5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel5->Location = System::Drawing::Point(10, 152);
 			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(1111, 68);
+			this->panel5->Size = System::Drawing::Size(851, 56);
 			this->panel5->TabIndex = 59;
 			// 
 			// panel6
@@ -337,21 +320,20 @@ namespace eImobweb {
 			this->panel6->Controls->Add(this->panel7);
 			this->panel6->Controls->Add(this->label7);
 			this->panel6->Controls->Add(this->label6);
-			this->panel6->Location = System::Drawing::Point(36, 313);
-			this->panel6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel6->Location = System::Drawing::Point(10, 254);
 			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(1111, 67);
+			this->panel6->Size = System::Drawing::Size(851, 55);
 			this->panel6->TabIndex = 60;
+			this->panel6->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Excluirform::panel6_Paint);
 			// 
 			// label10
 			// 
 			this->label10->AutoSize = true;
 			this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label10->Location = System::Drawing::Point(801, 21);
-			this->label10->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label10->Location = System::Drawing::Point(591, 16);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(110, 29);
+			this->label10->Size = System::Drawing::Size(85, 24);
 			this->label10->TabIndex = 67;
 			this->label10->Text = L"Telefone";
 			// 
@@ -359,36 +341,32 @@ namespace eImobweb {
 			// 
 			this->panel9->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel9->Controls->Add(this->tBtelefoneImob);
-			this->panel9->Location = System::Drawing::Point(891, 25);
-			this->panel9->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel9->Location = System::Drawing::Point(681, 19);
 			this->panel9->Name = L"panel9";
-			this->panel9->Size = System::Drawing::Size(219, 24);
+			this->panel9->Size = System::Drawing::Size(165, 20);
 			this->panel9->TabIndex = 66;
 			// 
 			// tBtelefoneImob
 			// 
-			this->tBtelefoneImob->Location = System::Drawing::Point(-3, -2);
-			this->tBtelefoneImob->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBtelefoneImob->Location = System::Drawing::Point(-2, -2);
 			this->tBtelefoneImob->Name = L"tBtelefoneImob";
-			this->tBtelefoneImob->Size = System::Drawing::Size(216, 22);
+			this->tBtelefoneImob->Size = System::Drawing::Size(163, 20);
 			this->tBtelefoneImob->TabIndex = 5;
 			// 
 			// panel8
 			// 
 			this->panel8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel8->Controls->Add(this->tBresponsavelImob);
-			this->panel8->Location = System::Drawing::Point(586, 23);
-			this->panel8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel8->Location = System::Drawing::Point(439, 18);
 			this->panel8->Name = L"panel8";
-			this->panel8->Size = System::Drawing::Size(207, 24);
+			this->panel8->Size = System::Drawing::Size(156, 20);
 			this->panel8->TabIndex = 65;
 			// 
 			// tBresponsavelImob
 			// 
-			this->tBresponsavelImob->Location = System::Drawing::Point(-3, -2);
-			this->tBresponsavelImob->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->tBresponsavelImob->Location = System::Drawing::Point(-2, -2);
 			this->tBresponsavelImob->Name = L"tBresponsavelImob";
-			this->tBresponsavelImob->Size = System::Drawing::Size(207, 22);
+			this->tBresponsavelImob->Size = System::Drawing::Size(156, 20);
 			this->tBresponsavelImob->TabIndex = 5;
 			// 
 			// label8
@@ -396,10 +374,9 @@ namespace eImobweb {
 			this->label8->AutoSize = true;
 			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label8->Location = System::Drawing::Point(436, 20);
-			this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label8->Location = System::Drawing::Point(320, 15);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(153, 29);
+			this->label8->Size = System::Drawing::Size(119, 24);
 			this->label8->TabIndex = 64;
 			this->label8->Text = L"Responsável";
 			// 
@@ -407,28 +384,25 @@ namespace eImobweb {
 			// 
 			this->panel7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->panel7->Controls->Add(this->tBidImobiliaria);
-			this->panel7->Location = System::Drawing::Point(347, 25);
-			this->panel7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel7->Location = System::Drawing::Point(263, 19);
 			this->panel7->Name = L"panel7";
-			this->panel7->Size = System::Drawing::Size(72, 24);
+			this->panel7->Size = System::Drawing::Size(55, 20);
 			this->panel7->TabIndex = 62;
 			// 
 			// tBidImobiliaria
 			// 
 			this->tBidImobiliaria->Location = System::Drawing::Point(-2, -1);
-			this->tBidImobiliaria->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->tBidImobiliaria->Name = L"tBidImobiliaria";
-			this->tBidImobiliaria->Size = System::Drawing::Size(72, 22);
+			this->tBidImobiliaria->Size = System::Drawing::Size(55, 20);
 			this->tBidImobiliaria->TabIndex = 5;
 			// 
 			// label7
 			// 
 			this->label7->AutoSize = true;
 			this->label7->ForeColor = System::Drawing::Color::Red;
-			this->label7->Location = System::Drawing::Point(406, 4);
-			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label7->Location = System::Drawing::Point(307, 2);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(12, 16);
+			this->label7->Size = System::Drawing::Size(11, 13);
 			this->label7->TabIndex = 63;
 			this->label7->Text = L"*";
 			// 
@@ -437,10 +411,9 @@ namespace eImobweb {
 			this->label6->AutoSize = true;
 			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label6->Location = System::Drawing::Point(4, 21);
-			this->label6->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label6->Location = System::Drawing::Point(-2, 16);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(345, 29);
+			this->label6->Size = System::Drawing::Size(267, 24);
 			this->label6->TabIndex = 61;
 			this->label6->Text = L"Informe o código da Imobiliária";
 			// 
@@ -450,10 +423,9 @@ namespace eImobweb {
 				static_cast<System::Byte>(0)));
 			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
 			this->button1->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->button1->Location = System::Drawing::Point(1156, 334);
-			this->button1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button1->Location = System::Drawing::Point(867, 275);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(73, 47);
+			this->button1->Size = System::Drawing::Size(55, 38);
 			this->button1->TabIndex = 61;
 			this->button1->Text = L"Excluir";
 			this->button1->TextAlign = System::Drawing::ContentAlignment::BottomCenter;
@@ -462,9 +434,9 @@ namespace eImobweb {
 			// 
 			// Excluirform
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1243, 412);
+			this->ClientSize = System::Drawing::Size(934, 341);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->panel6);
 			this->Controls->Add(this->panel5);
@@ -473,9 +445,8 @@ namespace eImobweb {
 			this->Controls->Add(this->label9);
 			this->Controls->Add(this->panel1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
-			this->MaximumSize = System::Drawing::Size(1261, 459);
-			this->MinimumSize = System::Drawing::Size(1261, 459);
+			this->MaximumSize = System::Drawing::Size(950, 380);
+			this->MinimumSize = System::Drawing::Size(950, 380);
 			this->Name = L"Excluirform";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"e-Imobweb";
@@ -665,5 +636,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 }
 
 
+private: System::Void panel6_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+}
 };
 }
