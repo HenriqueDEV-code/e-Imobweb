@@ -792,6 +792,31 @@ private: System::Void buttonFiltrar_Click_1(System::Object^ sender, System::Even
 
 }
 	  
+	   void AtualizarDataGrid() {
+		   ConfigBanco banco;
+		   String^ connectionString = banco.GetConnectionString();
+		   SqlConnection^ connection = gcnew SqlConnection(connectionString);
+
+		   try {
+			   connection->Open();
+			   String^ query = "SELECT imovel_id, imobiliaria_id, status FROM dbo.Envios";
+			   SqlDataAdapter^ da = gcnew SqlDataAdapter(query, connection);
+			   DataTable^ dt = gcnew DataTable();
+			   da->Fill(dt);
+			   dataGridView2->DataSource = dt;
+
+			   // Ocultar colunas desnecessárias
+			   dataGridView2->Columns["imovel_id"]->Visible = false;
+			   dataGridView2->Columns["imobiliaria_id"]->Visible = false;
+			   dataGridView2->Columns["status"]->Visible = false;
+		   }
+		   catch (Exception^ ex) {
+			   MessageBox::Show("Erro ao atualizar a tabela: " + ex->Message, "Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		   }
+		   finally {
+			   connection->Close();
+		   }
+	   }
 
 	   void CarregarImobiliarias() {
 		   ConfigBanco banco;
@@ -833,7 +858,7 @@ private: System::Void buttonFiltrar_Click_1(System::Object^ sender, System::Even
 
 		   try {
 			   connection->Open();
-			   String^ query = "SELECT imovel_id, imobiliaria_id FROM Envios WHERE status = 'Enviado'";
+			   String^ query = "SELECT imovel_id, imobiliaria_id, status FROM Envios";
 			   SqlCommand^ command = gcnew SqlCommand(query, connection);
 			   SqlDataReader^ reader = command->ExecuteReader();
 
@@ -841,11 +866,22 @@ private: System::Void buttonFiltrar_Click_1(System::Object^ sender, System::Even
 				   int imovelId = reader->GetInt32(0);
 				   int imobiliariaId = reader->GetInt32(1);
 
+				   // Verifica se a coluna `status` é NULL e faz a conversão correta
+				   bool status = false;
+				   if (!reader->IsDBNull(2)) {
+					   try {
+						   status = reader->GetBoolean(2); // Se `status` for `BIT`
+					   }
+					   catch (...) {
+						   status = reader->GetInt32(2) == 1; // Se for `INT`
+					   }
+				   }
+
 				   for each (DataGridViewRow ^ row in dataGridView2->Rows) {
-					   if (Convert::ToInt32(row->Cells[0]->Value) == imovelId) {
+					   if (row->Cells[0]->Value != nullptr && Convert::ToInt32(row->Cells[0]->Value) == imovelId) {
 						   for each (DataGridViewColumn ^ col in dataGridView2->Columns) {
 							   if (col->Tag != nullptr && Convert::ToInt32(col->Tag) == imobiliariaId) {
-								   row->Cells[col->Index]->Value = true;
+								   row->Cells[col->Index]->Value = status;
 								   break;
 							   }
 						   }
@@ -863,51 +899,49 @@ private: System::Void buttonFiltrar_Click_1(System::Object^ sender, System::Even
 		   }
 	   }
 
-	  
+	   void SalvarEnvio(int imovelId, int imobiliariaId, bool status) {
+		   ConfigBanco banco;
+		   String^ connectionString = banco.GetConnectionString();
+		   SqlConnection^ connection = gcnew SqlConnection(connectionString);
+		   try {
+			   connection->Open();
+			   String^ query = "IF EXISTS (SELECT 1 FROM envios WHERE imovel_id = @imovel_id AND imobiliaria_id = @imobiliaria_id) "
+				   "UPDATE envios SET status = @status WHERE imovel_id = @imovel_id AND imobiliaria_id = @imobiliaria_id "
+				   "ELSE "
+				   "INSERT INTO envios (imovel_id, imobiliaria_id, status) VALUES (@imovel_id, @imobiliaria_id , @status)";
 
-private: System::Void dataGridView2_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
-	if (e->RowIndex >= 0 && e->ColumnIndex >= 1) { // Ignora a primeira coluna que pode ser ID do imóvel
-		DataGridViewCheckBoxCell^ checkBoxCell = dynamic_cast<DataGridViewCheckBoxCell^>(dataGridView2->Rows[e->RowIndex]->Cells[e->ColumnIndex]);
+			   SqlCommand^ cmd = gcnew SqlCommand(query, connection);
+			   cmd->Parameters->AddWithValue("@imovel_id", imovelId);
+			   cmd->Parameters->AddWithValue("@imobiliaria_id", imobiliariaId);
+			   cmd->Parameters->AddWithValue("@status", status ? 1 : 0); // Salvar como 1 ou 0
+			   cmd->ExecuteNonQuery();
+		   }
+		   catch (Exception^ ex) {
+			   MessageBox::Show("Erro ao salvar no banco: " + ex->Message);
+		   }
+		   finally {
+			   connection->Close();
+		   }
+	   }
 
-		if (checkBoxCell != nullptr) {
-			bool isChecked = Convert::ToBoolean(checkBoxCell->Value);
-			int imovel_id = Convert::ToInt32(dataGridView2->Rows[e->RowIndex]->Cells[0]->Value); 
-			int imobiliaria_id = Convert::ToInt32(dataGridView2->Columns[e->ColumnIndex]->Tag); 
+	private: System::Void MeuFormulario_Load(System::Object^ sender, System::EventArgs^ e) {
+		CarregarImobiliarias();
+		AtualizarDataGrid();
+		MarcarEnvios();
+		dataGridView2->EndEdit(); // Garante que o estado dos checkboxes seja atualizado antes de salvar
+	}
+	private: System::Void dataGridView2_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
+		if (e->RowIndex >= 0 && e->ColumnIndex >= 1) {
+			DataGridViewCheckBoxCell^ checkBoxCell = dynamic_cast<DataGridViewCheckBoxCell^>(dataGridView2->Rows[e->RowIndex]->Cells[e->ColumnIndex]);
 
-			ConfigBanco banco;
-			String^ connectionString = banco.GetConnectionString();
-			SqlConnection^ connection = gcnew SqlConnection(connectionString);
+			if (checkBoxCell != nullptr) {
+				bool isChecked = (checkBoxCell->Value != nullptr) ? Convert::ToBoolean(checkBoxCell->Value) : false;
+				int imovel_id = Convert::ToInt32(dataGridView2->Rows[e->RowIndex]->Cells[0]->Value);
+				int imobiliaria_id = Convert::ToInt32(dataGridView2->Columns[e->ColumnIndex]->Tag);
 
-			try {
-				connection->Open();
-				String^ query;
-				SqlCommand^ command = gcnew SqlCommand("", connection);
-
-				if (isChecked) {
-					// Insere um novo registro na tabela Envios
-					query = "INSERT INTO Envios (imovel_id, imobiliaria_id, data_envio, status) VALUES (@imovel_id, @imobiliaria_id, GETDATE(), 'Enviado')";
-				}
-				else {
-					// Atualiza o status para "Revertido"
-					query = "UPDATE Envios SET status = 'Revertido', data_reversao = GETDATE() WHERE imovel_id = @imovel_id AND imobiliaria_id = @imobiliaria_id";
-				}
-
-				command->CommandText = query;
-				command->Parameters->AddWithValue("@imovel_id", imovel_id);
-				command->Parameters->AddWithValue("@imobiliaria_id", imobiliaria_id);
-
-				command->ExecuteNonQuery();
-			}
-			catch (Exception^ ex) {
-				MessageBox::Show("Erro ao atualizar o banco de dados: " + ex->Message, "Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
-			}
-			finally {
-				if (connection->State == ConnectionState::Open) {
-					connection->Close();
-				}
+				SalvarEnvio(imovel_id, imobiliaria_id, isChecked);
 			}
 		}
 	}
-}
 };
 }
