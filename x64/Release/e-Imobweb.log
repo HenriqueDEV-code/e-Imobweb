@@ -1,2 +1,12 @@
-﻿  CadastroDeImoveisForm.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
+﻿  CadastroDeImoveisForm.cpp
+C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\CadastroDeImoveisForm.h(1822,2): warning C4102: 'eImobweb': rótulo não referenciado
+  (compilando o arquivo fonte 'CadastroDeImoveisForm.cpp')
+  
+  ListaDeImoveisForm.cpp
+  Program.cpp
+C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\CadastroDeImoveisForm.h(1822,2): warning C4102: 'eImobweb': rótulo não referenciado
+  (compilando o arquivo fonte 'Program.cpp')
+  
+  Gerando Código...
+  CadastroDeImoveisForm.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
   e-Imobweb.vcxproj -> C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\x64\Release\e-Imobweb.exe

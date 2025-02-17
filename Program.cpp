@@ -17,16 +17,15 @@ using namespace System;
 using namespace System::Windows::Forms;
 using namespace System::Data;
 using namespace System::Data::SqlClient;
+
 [STAThread]
-void main(array<String^>^ args)
+int main(array<String^>^ args)
 {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
     ConfigBanco banco;
-    // String de conexão com o banco de dados
-    String^ connectionString = banco.GetConnectionString();
 
-    // Verifica se já existe um login e senha cadastrados no banco
+    String^ connectionString = banco.GetConnectionString();
     String^ queryCheck = "SELECT COUNT(*) FROM banco";
     SqlConnection^ connection = gcnew SqlConnection(connectionString);
     SqlCommand^ commandCheck = gcnew SqlCommand(queryCheck, connection);
@@ -37,31 +36,28 @@ void main(array<String^>^ args)
     {
         connection->Open();
         int count = Convert::ToInt32(commandCheck->ExecuteScalar());
-        hasLogin = (count > 0); // Se existir pelo menos um registro, há login salvo
+        hasLogin = (count > 0);
     }
     catch (Exception^ ex)
     {
         MessageBox::Show("Erro ao verificar o banco de dados: " + ex->Message, "Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
-        return; // Sai do programa em caso de erro crítico
+        return -1; // Indica erro crítico
     }
     finally
     {
         connection->Close();
     }
 
-    // Se não há login, abre o formulário ConfigBancoForm para configurar o primeiro login
     if (!hasLogin)
     {
         eImobweb::ConfigBancoForm^ ConfigBanco = gcnew eImobweb::ConfigBancoForm();
         Application::Run(ConfigBanco);
 
-        // Obtém os valores inseridos pelo usuário no ConfigBancoForm
         String^ logon = ConfigBanco->GetLogon();
         String^ senha = ConfigBanco->GetSenha();
 
         if (!String::IsNullOrEmpty(logon) && !String::IsNullOrEmpty(senha))
         {
-            // Insere o login e senha no banco de dados
             String^ queryInsert = "INSERT INTO banco (Logon, senha) VALUES (@logon, @senha)";
             SqlCommand^ commandInsert = gcnew SqlCommand(queryInsert, connection);
             commandInsert->Parameters->AddWithValue("@logon", logon);
@@ -76,61 +72,64 @@ void main(array<String^>^ args)
             catch (Exception^ ex)
             {
                 MessageBox::Show("Erro ao salvar o login no banco de dados: " + ex->Message, "Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
-                return; // Sai do programa em caso de erro
+                return -1;
             }
             finally
             {
                 connection->Close();
             }
-
         }
         else {
-            return;
+            return 0;
         }
-       
     }
 
-    // Login já cadastrado ou configurado, mantém a janela principal aberta e exibe novas janelas sem encerrar a principal
     eImobweb::CadastroDeImoveisForm^ Cadastro = gcnew eImobweb::CadastroDeImoveisForm();
     Application::Run(Cadastro);
 
-    // Verifica qual ação foi selecionada no CadastroDeImoveisForm
     if (Cadastro->switchToLista)
     {
         eImobweb::ListaDeImoveisForm^ Lista = gcnew eImobweb::ListaDeImoveisForm();
-        Lista->Show(); // Exibe a janela de lista de imóveis
+        Lista->Show();
     }
 
     if (Cadastro->switchToImobiliaria)
     {
         eImobweb::ImobiliariaForm^ Imobiliaria = gcnew eImobweb::ImobiliariaForm();
-        Imobiliaria->Show(); // Exibe a janela de imobiliária
+        Imobiliaria->Show();
     }
+
     if (Cadastro->switchToExcluir)
     {
         eImobweb::Excluirform^ Excluir = gcnew eImobweb::Excluirform();
-        Excluir->Show(); // Exibe a janela de imobiliária
+        Excluir->Show();
     }
+
     if (Cadastro->switchToEditar)
     {
         eImobweb::EditarForm^ Editar = gcnew eImobweb::EditarForm();
-        Editar->Show(); // Exibe a janela de imobiliária
+        Editar->Show();
     }
+
     if (Cadastro->switchToVenda)
     {
         eImobweb::VendasForm^ Venda = gcnew eImobweb::VendasForm();
-        Venda->Show(); // Exibe a janela de imobiliária
+        Venda->Show();
     }
+
     if (Cadastro->switchToRelatorio)
     {
         eImobweb::RelatorioForm^ Relatorio = gcnew eImobweb::RelatorioForm();
-        Relatorio->Show(); // Exibe a janela de imobiliária
+        Relatorio->Show();
     }
 
     if (Cadastro->switchToBanco)
     {
         eImobweb::ConfigBancoForm^ Banco = gcnew eImobweb::ConfigBancoForm();
-        Banco->Show(); // Exibe a janela de configuração do banco
+        Banco->Show();
     }
+
+    return 0; // Indica execução bem-sucedida
 }
+
 
