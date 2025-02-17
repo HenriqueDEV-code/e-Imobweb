@@ -149,8 +149,8 @@ namespace eImobweb {
 private: System::Windows::Forms::LinkLabel^ linkLabel3;
 
 private: System::Windows::Forms::LinkLabel^ linkLabel5;
-private: System::Windows::Forms::LinkLabel^ linkLabel6;
-private: System::Windows::Forms::PictureBox^ pictureBox4;
+
+
 private: System::Windows::Forms::PictureBox^ pictureBox5;
 private: System::Windows::Forms::LinkLabel^ linkLabel7;
 private: System::Windows::Forms::PictureBox^ pictureBox6;
