@@ -177,6 +177,37 @@ private: System::Windows::Forms::DataGridViewTextBoxColumn^ valor;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	private:
 		/// <summary>
 		/// Variável de designer necessária.

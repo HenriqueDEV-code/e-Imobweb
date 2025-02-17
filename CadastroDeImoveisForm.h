@@ -168,6 +168,7 @@ private: System::Windows::Forms::LinkLabel^ linkLabel8;
 
 
 
+
 	protected:
 
 
@@ -608,7 +609,7 @@ private: System::Windows::Forms::LinkLabel^ linkLabel8;
 			// 
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label4->Location = System::Drawing::Point(794, 142);
+			this->label4->Location = System::Drawing::Point(794, 144);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(57, 24);
 			this->label4->TabIndex = 8;
