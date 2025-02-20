@@ -478,7 +478,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->buttonFiltrar->Font = (gcnew System::Drawing::Font(L"Arial Rounded MT Bold", 9.25F));
 			this->buttonFiltrar->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"buttonFiltrar.Image")));
 			this->buttonFiltrar->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->buttonFiltrar->Location = System::Drawing::Point(1789, 35);
+			this->buttonFiltrar->Location = System::Drawing::Point(1738, 37);
 			this->buttonFiltrar->Name = L"buttonFiltrar";
 			this->buttonFiltrar->Size = System::Drawing::Size(96, 32);
 			this->buttonFiltrar->TabIndex = 60;

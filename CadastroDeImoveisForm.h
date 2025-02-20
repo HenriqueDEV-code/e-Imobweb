@@ -581,7 +581,7 @@ private: System::Windows::Forms::LinkLabel^ linkLabel8;
 			// 
 			// tBNomeProprie
 			// 
-			this->tBNomeProprie->Location = System::Drawing::Point(0, 0);
+			this->tBNomeProprie->Location = System::Drawing::Point(-1, -2);
 			this->tBNomeProprie->Name = L"tBNomeProprie";
 			this->tBNomeProprie->Size = System::Drawing::Size(152, 20);
 			this->tBNomeProprie->TabIndex = 5;
@@ -686,7 +686,7 @@ private: System::Windows::Forms::LinkLabel^ linkLabel8;
 			this->panel2->Controls->Add(this->tBNomeProprie);
 			this->panel2->Location = System::Drawing::Point(322, 147);
 			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(155, 20);
+			this->panel2->Size = System::Drawing::Size(154, 20);
 			this->panel2->TabIndex = 16;
 			this->panel2->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &CadastroDeImoveisForm::panel2_Paint);
 			// 

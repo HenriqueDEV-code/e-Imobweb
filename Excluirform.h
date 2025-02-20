@@ -274,14 +274,14 @@ namespace eImobweb {
 			this->panel4->Controls->Add(this->tBtelefoneCliente);
 			this->panel4->Location = System::Drawing::Point(626, 18);
 			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(201, 20);
+			this->panel4->Size = System::Drawing::Size(218, 20);
 			this->panel4->TabIndex = 57;
 			// 
 			// tBtelefoneCliente
 			// 
-			this->tBtelefoneCliente->Location = System::Drawing::Point(-2, -2);
+			this->tBtelefoneCliente->Location = System::Drawing::Point(14, -2);
 			this->tBtelefoneCliente->Name = L"tBtelefoneCliente";
-			this->tBtelefoneCliente->Size = System::Drawing::Size(200, 20);
+			this->tBtelefoneCliente->Size = System::Drawing::Size(202, 20);
 			this->tBtelefoneCliente->TabIndex = 5;
 			// 
 			// label5

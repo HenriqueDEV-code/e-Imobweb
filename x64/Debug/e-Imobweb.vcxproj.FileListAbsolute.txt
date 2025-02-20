@@ -8,7 +8,6 @@ D:\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\eImobweb.EditarForm.res
 D:\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\eImobweb.Excluirform.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\e-Imobweb.vcxproj.AssemblyReference.cache
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\eImobweb.CadastroDeImoveisForm.resources
-C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\eImobweb.CheckListForm.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\eImobweb.ConfigBancoForm.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\eImobweb.EditarForm.resources
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\x64\Debug\eImobweb.Excluirform.resources
