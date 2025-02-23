@@ -2,6 +2,7 @@
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\CadastroDeImoveisForm.h(1961,2): warning C4102: 'eImobweb': rótulo não referenciado
   (compilando o arquivo fonte 'CadastroDeImoveisForm.cpp')
   
+  ListaDeImoveisForm.cpp
   Program.cpp
 C:\Users\stell\OneDrive\Documentos\VisualStudio\Codigo C++\e-Imobweb\e-Imobweb\CadastroDeImoveisForm.h(1961,2): warning C4102: 'eImobweb': rótulo não referenciado
   (compilando o arquivo fonte 'Program.cpp')

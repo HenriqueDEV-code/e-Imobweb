@@ -129,6 +129,26 @@ namespace eImobweb {
 
 	private: System::Windows::Forms::Button^ buttonFiltrar;
 	private: System::Windows::Forms::ComboBox^ cBPretencaoFiltro;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+private: System::Windows::Forms::Label^ label1;
+private: System::Windows::Forms::PictureBox^ pictureBox3;
+private: System::Windows::Forms::Panel^ panel1;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ Id;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ Nome;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ telefone;
@@ -144,11 +164,21 @@ private: System::Windows::Forms::DataGridViewTextBoxColumn^ descricao;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ Tipo_Imovel;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ TipoNegocio;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ valor;
-private: System::Windows::Forms::Panel^ panel2;
-private: System::Windows::Forms::DataGridView^ dataGridView2;
-private: System::Windows::Forms::Label^ label1;
-private: System::Windows::Forms::PictureBox^ pictureBox3;
-private: System::Windows::Forms::Panel^ panel1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -175,6 +205,21 @@ private: System::Windows::Forms::Panel^ panel1;
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
+			this->panel3 = (gcnew System::Windows::Forms::Panel());
+			this->buttonFiltrar = (gcnew System::Windows::Forms::Button());
+			this->cBPretencaoFiltro = (gcnew System::Windows::Forms::ComboBox());
+			this->cBTipoImovelFiltro = (gcnew System::Windows::Forms::ComboBox());
+			this->tBnumeroFiltro = (gcnew System::Windows::Forms::TextBox());
+			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->tBbairroFiltro = (gcnew System::Windows::Forms::TextBox());
+			this->tBcidadeFiltro = (gcnew System::Windows::Forms::TextBox());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->tBTelefoneFiltro = (gcnew System::Windows::Forms::TextBox());
+			this->tBnomeFiltro = (gcnew System::Windows::Forms::TextBox());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->Id = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Nome = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->telefone = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
@@ -190,27 +235,8 @@ private: System::Windows::Forms::Panel^ panel1;
 			this->Tipo_Imovel = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->TipoNegocio = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->valor = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-			this->panel3 = (gcnew System::Windows::Forms::Panel());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
-			this->buttonFiltrar = (gcnew System::Windows::Forms::Button());
-			this->cBPretencaoFiltro = (gcnew System::Windows::Forms::ComboBox());
-			this->cBTipoImovelFiltro = (gcnew System::Windows::Forms::ComboBox());
-			this->tBnumeroFiltro = (gcnew System::Windows::Forms::TextBox());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->tBbairroFiltro = (gcnew System::Windows::Forms::TextBox());
-			this->tBcidadeFiltro = (gcnew System::Windows::Forms::TextBox());
-			this->label8 = (gcnew System::Windows::Forms::Label());
-			this->tBTelefoneFiltro = (gcnew System::Windows::Forms::TextBox());
-			this->tBnomeFiltro = (gcnew System::Windows::Forms::TextBox());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->panel3->SuspendLayout();
-			this->panel2->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->panel1->SuspendLayout();
 			this->SuspendLayout();
@@ -291,116 +317,13 @@ private: System::Windows::Forms::Panel^ panel1;
 			this->dataGridView1->Location = System::Drawing::Point(-2, 129);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->RowHeadersWidth = 51;
-			this->dataGridView1->Size = System::Drawing::Size(960, 735);
+			this->dataGridView1->Size = System::Drawing::Size(1904, 793);
 			this->dataGridView1->TabIndex = 2;
 			this->dataGridView1->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &ListaDeImoveisForm::dataGridView1_CellContentClick);
-			// 
-			// Id
-			// 
-			this->Id->HeaderText = L"ID Cliente";
-			this->Id->MinimumWidth = 6;
-			this->Id->Name = L"Id";
-			this->Id->Width = 50;
-			// 
-			// Nome
-			// 
-			this->Nome->HeaderText = L"Proprietario";
-			this->Nome->MinimumWidth = 6;
-			this->Nome->Name = L"Nome";
-			this->Nome->Width = 175;
-			// 
-			// telefone
-			// 
-			this->telefone->HeaderText = L"Telefone";
-			this->telefone->MinimumWidth = 6;
-			this->telefone->Name = L"telefone";
-			this->telefone->Width = 125;
-			// 
-			// email
-			// 
-			this->email->HeaderText = L"Email";
-			this->email->MinimumWidth = 6;
-			this->email->Name = L"email";
-			this->email->Width = 125;
-			// 
-			// cidade
-			// 
-			this->cidade->HeaderText = L"Cidade";
-			this->cidade->MinimumWidth = 6;
-			this->cidade->Name = L"cidade";
-			this->cidade->Width = 162;
-			// 
-			// bairro
-			// 
-			this->bairro->HeaderText = L"Bairro";
-			this->bairro->MinimumWidth = 6;
-			this->bairro->Name = L"bairro";
-			this->bairro->Width = 210;
-			// 
-			// rua
-			// 
-			this->rua->HeaderText = L"Logradouro";
-			this->rua->MinimumWidth = 6;
-			this->rua->Name = L"rua";
-			this->rua->Width = 210;
-			// 
-			// numero
-			// 
-			this->numero->HeaderText = L"Número";
-			this->numero->MinimumWidth = 6;
-			this->numero->Name = L"numero";
-			this->numero->Width = 60;
-			// 
-			// complemento
-			// 
-			this->complemento->HeaderText = L"Complemento";
-			this->complemento->MinimumWidth = 6;
-			this->complemento->Name = L"complemento";
-			this->complemento->Width = 125;
-			// 
-			// Area_terreno
-			// 
-			this->Area_terreno->HeaderText = L"Área do terreno";
-			this->Area_terreno->Name = L"Area_terreno";
-			this->Area_terreno->Width = 56;
-			// 
-			// Area_Construcao
-			// 
-			this->Area_Construcao->HeaderText = L"Área Construida";
-			this->Area_Construcao->Name = L"Area_Construcao";
-			this->Area_Construcao->Width = 59;
-			// 
-			// descricao
-			// 
-			this->descricao->HeaderText = L"Descrição";
-			this->descricao->MinimumWidth = 6;
-			this->descricao->Name = L"descricao";
-			this->descricao->Width = 115;
-			// 
-			// Tipo_Imovel
-			// 
-			this->Tipo_Imovel->HeaderText = L"Tipo e Imóvel";
-			this->Tipo_Imovel->MinimumWidth = 6;
-			this->Tipo_Imovel->Name = L"Tipo_Imovel";
-			this->Tipo_Imovel->Width = 125;
-			// 
-			// TipoNegocio
-			// 
-			this->TipoNegocio->HeaderText = L"Pretensão";
-			this->TipoNegocio->MinimumWidth = 6;
-			this->TipoNegocio->Name = L"TipoNegocio";
-			this->TipoNegocio->Width = 125;
-			// 
-			// valor
-			// 
-			this->valor->HeaderText = L"Valor do Imóvel";
-			this->valor->MinimumWidth = 6;
-			this->valor->Name = L"valor";
 			// 
 			// panel3
 			// 
 			this->panel3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel3->Controls->Add(this->panel2);
 			this->panel3->Controls->Add(this->buttonFiltrar);
 			this->panel3->Controls->Add(this->cBPretencaoFiltro);
 			this->panel3->Controls->Add(this->cBTipoImovelFiltro);
@@ -421,28 +344,8 @@ private: System::Windows::Forms::Panel^ panel1;
 			this->panel3->Controls->Add(this->label2);
 			this->panel3->Location = System::Drawing::Point(0, 119);
 			this->panel3->Name = L"panel3";
-			this->panel3->Size = System::Drawing::Size(1904, 868);
+			this->panel3->Size = System::Drawing::Size(1904, 924);
 			this->panel3->TabIndex = 1;
-			// 
-			// panel2
-			// 
-			this->panel2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel2->Controls->Add(this->dataGridView2);
-			this->panel2->Location = System::Drawing::Point(964, 154);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(938, 712);
-			this->panel2->TabIndex = 62;
-			// 
-			// dataGridView2
-			// 
-			this->dataGridView2->BackgroundColor = System::Drawing::SystemColors::Window;
-			this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dataGridView2->GridColor = System::Drawing::SystemColors::MenuHighlight;
-			this->dataGridView2->Location = System::Drawing::Point(-2, -2);
-			this->dataGridView2->Name = L"dataGridView2";
-			this->dataGridView2->Size = System::Drawing::Size(938, 737);
-			this->dataGridView2->TabIndex = 61;
-			this->dataGridView2->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &ListaDeImoveisForm::dataGridView2_CellContentClick);
 			// 
 			// buttonFiltrar
 			// 
@@ -463,7 +366,7 @@ private: System::Windows::Forms::Panel^ panel1;
 			this->cBPretencaoFiltro->Anchor = System::Windows::Forms::AnchorStyles::Left;
 			this->cBPretencaoFiltro->FormattingEnabled = true;
 			this->cBPretencaoFiltro->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Venda", L"Aluguel", L"Venda e Aluguel" });
-			this->cBPretencaoFiltro->Location = System::Drawing::Point(1584, 42);
+			this->cBPretencaoFiltro->Location = System::Drawing::Point(1584, 44);
 			this->cBPretencaoFiltro->Name = L"cBPretencaoFiltro";
 			this->cBPretencaoFiltro->Size = System::Drawing::Size(148, 21);
 			this->cBPretencaoFiltro->TabIndex = 59;
@@ -581,6 +484,108 @@ private: System::Windows::Forms::Panel^ panel1;
 			this->panel1->Size = System::Drawing::Size(1904, 113);
 			this->panel1->TabIndex = 0;
 			// 
+			// Id
+			// 
+			this->Id->HeaderText = L"ID Cliente";
+			this->Id->MinimumWidth = 6;
+			this->Id->Name = L"Id";
+			this->Id->Width = 50;
+			// 
+			// Nome
+			// 
+			this->Nome->HeaderText = L"Proprietario";
+			this->Nome->MinimumWidth = 6;
+			this->Nome->Name = L"Nome";
+			this->Nome->Width = 175;
+			// 
+			// telefone
+			// 
+			this->telefone->HeaderText = L"Telefone";
+			this->telefone->MinimumWidth = 6;
+			this->telefone->Name = L"telefone";
+			this->telefone->Width = 125;
+			// 
+			// email
+			// 
+			this->email->HeaderText = L"Email";
+			this->email->MinimumWidth = 6;
+			this->email->Name = L"email";
+			this->email->Width = 125;
+			// 
+			// cidade
+			// 
+			this->cidade->HeaderText = L"Cidade";
+			this->cidade->MinimumWidth = 6;
+			this->cidade->Name = L"cidade";
+			this->cidade->Width = 162;
+			// 
+			// bairro
+			// 
+			this->bairro->HeaderText = L"Bairro";
+			this->bairro->MinimumWidth = 6;
+			this->bairro->Name = L"bairro";
+			this->bairro->Width = 210;
+			// 
+			// rua
+			// 
+			this->rua->HeaderText = L"Logradouro";
+			this->rua->MinimumWidth = 6;
+			this->rua->Name = L"rua";
+			this->rua->Width = 231;
+			// 
+			// numero
+			// 
+			this->numero->HeaderText = L"Número";
+			this->numero->MinimumWidth = 6;
+			this->numero->Name = L"numero";
+			this->numero->Width = 60;
+			// 
+			// complemento
+			// 
+			this->complemento->HeaderText = L"Complemento";
+			this->complemento->MinimumWidth = 6;
+			this->complemento->Name = L"complemento";
+			this->complemento->Width = 125;
+			// 
+			// Area_terreno
+			// 
+			this->Area_terreno->HeaderText = L"Área do terreno";
+			this->Area_terreno->Name = L"Area_terreno";
+			this->Area_terreno->Width = 56;
+			// 
+			// Area_Construcao
+			// 
+			this->Area_Construcao->HeaderText = L"Área Construida";
+			this->Area_Construcao->Name = L"Area_Construcao";
+			this->Area_Construcao->Width = 59;
+			// 
+			// descricao
+			// 
+			this->descricao->HeaderText = L"Descrição";
+			this->descricao->MinimumWidth = 6;
+			this->descricao->Name = L"descricao";
+			this->descricao->Width = 115;
+			// 
+			// Tipo_Imovel
+			// 
+			this->Tipo_Imovel->HeaderText = L"Tipo e Imóvel";
+			this->Tipo_Imovel->MinimumWidth = 6;
+			this->Tipo_Imovel->Name = L"Tipo_Imovel";
+			this->Tipo_Imovel->Width = 125;
+			// 
+			// TipoNegocio
+			// 
+			this->TipoNegocio->HeaderText = L"Pretensão";
+			this->TipoNegocio->MinimumWidth = 6;
+			this->TipoNegocio->Name = L"TipoNegocio";
+			this->TipoNegocio->Width = 125;
+			// 
+			// valor
+			// 
+			this->valor->HeaderText = L"Valor do Imóvel";
+			this->valor->MinimumWidth = 6;
+			this->valor->Name = L"valor";
+			// 
 			// ListaDeImoveisForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -597,8 +602,6 @@ private: System::Windows::Forms::Panel^ panel1;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->panel3->ResumeLayout(false);
 			this->panel3->PerformLayout();
-			this->panel2->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->panel1->ResumeLayout(false);
 			this->ResumeLayout(false);
@@ -738,9 +741,6 @@ private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e)
 
 private: System::Void ListaDeImoveisForm_Load(System::Object^ sender, System::EventArgs^ e) {
 	    CarregarDados();
-		CarregarImobiliarias();
-		MarcarEnvios();
-
 }
 
 
@@ -795,156 +795,6 @@ private: System::Void buttonFiltrar_Click_1(System::Object^ sender, System::Even
 
 }
 	  
-	   void AtualizarDataGrid() {
-		   ConfigBanco banco;
-		   String^ connectionString = banco.GetConnectionString();
-		   SqlConnection^ connection = gcnew SqlConnection(connectionString);
-
-		   try {
-			   connection->Open();
-			   String^ query = "SELECT imovel_id, imobiliaria_id, status FROM dbo.Envios";
-			   SqlDataAdapter^ da = gcnew SqlDataAdapter(query, connection);
-			   DataTable^ dt = gcnew DataTable();
-			   da->Fill(dt);
-			   dataGridView2->DataSource = dt;
-
-			   // Ocultar colunas desnecessárias
-			   dataGridView2->Columns["imovel_id"]->Visible = false;
-			   dataGridView2->Columns["imobiliaria_id"]->Visible = false;
-			   dataGridView2->Columns["status"]->Visible = false;
-		   }
-		   catch (Exception^ ex) {
-			   MessageBox::Show("Erro ao atualizar a tabela: " + ex->Message, "Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
-		   }
-		   finally {
-			   connection->Close();
-		   }
-	   }
-
-	   void CarregarImobiliarias() {
-		   ConfigBanco banco;
-		   String^ connectionString = banco.GetConnectionString();
-		   SqlConnection^ connection = gcnew SqlConnection(connectionString);
-
-		   try {
-			   connection->Open();
-			   String^ query = "SELECT IdImobiliaria, nome FROM Imobiliaria$";
-			   SqlCommand^ command = gcnew SqlCommand(query, connection);
-			   SqlDataReader^ reader = command->ExecuteReader();
-
-			   dataGridView2->Columns->Clear(); // Limpa colunas antes de recriar
-			   dataGridView2->Columns->Add("ID_Imovel", "ID Imóvel"); // Primeira coluna fixa
-
-			   while (reader->Read()) {
-				   int imobiliariaId = reader->GetInt32(0);
-				   String^ nomeImobiliaria = reader->GetString(1);
-
-				   DataGridViewCheckBoxColumn^ coluna = gcnew DataGridViewCheckBoxColumn();
-				   coluna->HeaderText = nomeImobiliaria;
-				   coluna->Tag = imobiliariaId;  // Guarda o ID da imobiliária
-				   dataGridView2->Columns->Add(coluna);
-			   }
-			   reader->Close();
-		   }
-		   catch (Exception^ ex) {
-			   MessageBox::Show("Erro ao carregar imobiliárias: " + ex->Message, "Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
-		   }
-		   finally {
-			   connection->Close();
-		   }
-	   }
-
-	   void MarcarEnvios() {
-		   ConfigBanco banco;
-		   String^ connectionString = banco.GetConnectionString();
-		   SqlConnection^ connection = gcnew SqlConnection(connectionString);
-
-		   try {
-			   connection->Open();
-			   String^ query = "SELECT imovel_id, imobiliaria_id, status FROM Envios";
-			   SqlCommand^ command = gcnew SqlCommand(query, connection);
-			   SqlDataReader^ reader = command->ExecuteReader();
-
-			   while (reader->Read()) {
-				   int imovelId = reader->GetInt32(0);
-				   int imobiliariaId = reader->GetInt32(1);
-
-				   // Verifica se a coluna `status` é NULL e faz a conversão correta
-				   bool status = false;
-				   if (!reader->IsDBNull(2)) {
-					   try {
-						   status = reader->GetBoolean(2); // Se `status` for `BIT`
-					   }
-					   catch (...) {
-						   status = reader->GetInt32(2) == 1; // Se for `INT`
-					   }
-				   }
-
-				   for each (DataGridViewRow ^ row in dataGridView2->Rows) {
-					   if (row->Cells[0]->Value != nullptr && Convert::ToInt32(row->Cells[0]->Value) == imovelId) {
-						   for each (DataGridViewColumn ^ col in dataGridView2->Columns) {
-							   if (col->Tag != nullptr && Convert::ToInt32(col->Tag) == imobiliariaId) {
-								   row->Cells[col->Index]->Value = status;
-								   break;
-							   }
-						   }
-						   break;
-					   }
-				   }
-			   }
-			   reader->Close();
-		   }
-		   catch (Exception^ ex) {
-			   MessageBox::Show("Erro ao marcar envios: " + ex->Message, "Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
-		   }
-		   finally {
-			   connection->Close();
-		   }
-	   }
-
-	   void SalvarEnvio(int imovelId, int imobiliariaId, bool status) {
-		   ConfigBanco banco;
-		   String^ connectionString = banco.GetConnectionString();
-		   SqlConnection^ connection = gcnew SqlConnection(connectionString);
-		   try {
-			   connection->Open();
-			   String^ query = "IF EXISTS (SELECT 1 FROM envios WHERE imovel_id = @imovel_id AND imobiliaria_id = @imobiliaria_id) "
-				   "UPDATE envios SET status = @status WHERE imovel_id = @imovel_id AND imobiliaria_id = @imobiliaria_id "
-				   "ELSE "
-				   "INSERT INTO envios (imovel_id, imobiliaria_id, status) VALUES (@imovel_id, @imobiliaria_id , @status)";
-
-			   SqlCommand^ cmd = gcnew SqlCommand(query, connection);
-			   cmd->Parameters->AddWithValue("@imovel_id", imovelId);
-			   cmd->Parameters->AddWithValue("@imobiliaria_id", imobiliariaId);
-			   cmd->Parameters->AddWithValue("@status", status ? 1 : 0); // Salvar como 1 ou 0
-			   cmd->ExecuteNonQuery();
-		   }
-		   catch (Exception^ ex) {
-			   MessageBox::Show("Erro ao salvar no banco: " + ex->Message);
-		   }
-		   finally {
-			   connection->Close();
-		   }
-	   }
-
-	private: System::Void MeuFormulario_Load(System::Object^ sender, System::EventArgs^ e) {
-		CarregarImobiliarias();
-		AtualizarDataGrid();
-		MarcarEnvios();
-		dataGridView2->EndEdit(); // Garante que o estado dos checkboxes seja atualizado antes de salvar
-	}
-	private: System::Void dataGridView2_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
-		if (e->RowIndex >= 0 && e->ColumnIndex >= 1) {
-			DataGridViewCheckBoxCell^ checkBoxCell = dynamic_cast<DataGridViewCheckBoxCell^>(dataGridView2->Rows[e->RowIndex]->Cells[e->ColumnIndex]);
-
-			if (checkBoxCell != nullptr) {
-				bool isChecked = (checkBoxCell->Value != nullptr) ? Convert::ToBoolean(checkBoxCell->Value) : false;
-				int imovel_id = Convert::ToInt32(dataGridView2->Rows[e->RowIndex]->Cells[0]->Value);
-				int imobiliaria_id = Convert::ToInt32(dataGridView2->Columns[e->ColumnIndex]->Tag);
-
-				SalvarEnvio(imovel_id, imobiliaria_id, isChecked);
-			}
-		}
-	}
+	  
 };
 }
