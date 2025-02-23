@@ -1248,25 +1248,25 @@ private: System::Void tBClienteIInfo_TextChanged(System::Object^ sender, System:
 
 
 private: System::Void tBNomeClienteEd_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-	String^ validText = "";
-	// Salva o texto atual digitado no campo
+		String^ validText = "";
+		// Salva o texto atual digitado no campo
 
-	String^ currentText = tBNomeClienteEd->Text;
+		String^ currentText = tBNomeClienteEd->Text;
 
-	// Remover caracteres que nao sao letras
-	for each (Char c in currentText)
-	{
-		if (Char::IsLetter(c) || Char::IsWhiteSpace(c))
+		// Remover caracteres que nao sao letras
+		for each (Char c in currentText)
 		{
-			validText += c; // Manter apenas letras e espaços
+			if (Char::IsLetter(c) || Char::IsWhiteSpace(c))
+			{
+				validText += c; // Manter apenas letras e espaços
+			}
 		}
-	}
-	// Se o texto original tiver sido alterado, atualiza o campo com o texto válido
-	if (currentText != validText) {
-		int cursorPosition = tBNomeClienteEd->SelectionStart; // Salva a posição do cursor
-		tBNomeClienteEd->Text = validText;
-		tBNomeClienteEd->SelectionStart = Math::Min(cursorPosition, validText->Length); // Restaura a posição do cursor
-	}
+		// Se o texto original tiver sido alterado, atualiza o campo com o texto válido
+		if (currentText != validText) {
+			int cursorPosition = tBNomeClienteEd->SelectionStart; // Salva a posição do cursor
+			tBNomeClienteEd->Text = validText;
+			tBNomeClienteEd->SelectionStart = Math::Min(cursorPosition, validText->Length); // Restaura a posição do cursor
+		}
 }
 private: System::Void tBTelefoneClienteEd_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	// Salva o texto atual digitado no campo

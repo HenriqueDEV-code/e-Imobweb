@@ -51,33 +51,6 @@ namespace eImobweb {
 			}
 		}
 
-	private: System::Windows::Forms::Panel^ panel1;
-
-
-
-
-
-
-	private: System::Windows::Forms::PictureBox^ pictureBox3;
-	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::Label^ label2;
-	private: System::Windows::Forms::TextBox^ tBNomeProprie;
-
-	private: System::Windows::Forms::Label^ label3;
-	private: System::Windows::Forms::TextBox^ tBtelefone;
-
-	private: System::Windows::Forms::Label^ label4;
-	private: System::Windows::Forms::TextBox^ tBemail;
-
-	private: System::Windows::Forms::Label^ label5;
-	private: System::Windows::Forms::TextBox^ tBvalor;
-
-	private: System::Windows::Forms::Label^ label6;
-	private: System::Windows::Forms::TextBox^ tBAreaTerreno;
-
-
-	private: System::Windows::Forms::Label^ label7;
-	private: System::Windows::Forms::TextBox^ tBareaConstruida;
 
 
 
@@ -88,60 +61,87 @@ namespace eImobweb {
 
 
 
-	private: System::Windows::Forms::Label^ label8;
-	private: System::Windows::Forms::TextBox^ tBCep;
 
 
-	private: System::Windows::Forms::LinkLabel^ linkLabelValidarCep;
-
-	private: System::Windows::Forms::Label^ label9;
-	private: System::Windows::Forms::Label^ label10;
-	private: System::Windows::Forms::Label^ label11;
-	private: System::Windows::Forms::Label^ label12;
-	private: System::Windows::Forms::TextBox^ tBrua;
 
 
-	private: System::Windows::Forms::Label^ label13;
 
-	private: System::Windows::Forms::TextBox^ tBnumero;
 
-	private: System::Windows::Forms::Label^ label14;
 
-	private: System::Windows::Forms::TextBox^ tBbairro;
 
-	private: System::Windows::Forms::Label^ label15;
 
-	private: System::Windows::Forms::TextBox^ tBcidade;
 
-	private: System::Windows::Forms::Label^ label16;
 
-	private: System::Windows::Forms::TextBox^ tBcomplemento;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 	private: System::Windows::Forms::TextBox^ tBdescricao;
 
 	private: System::Windows::Forms::Label^ label18;
-	private: System::Windows::Forms::ComboBox^ comboBox2;
-
-	private: System::Windows::Forms::ComboBox^ comboBox1;
 
 
-	private: System::Windows::Forms::Label^ label19;
-	private: System::Windows::Forms::Label^ label20;
+
+
+
+
+
 	private: System::Windows::Forms::LinkLabel^ linkLabel4;
-	private: System::Windows::Forms::Label^ label21;
-	private: System::Windows::Forms::Label^ label22;
-	private: System::Windows::Forms::Label^ label23;
-	private: System::Windows::Forms::Label^ label24;
-	private: System::Windows::Forms::Label^ label25;
-	private: System::Windows::Forms::Label^ label26;
-	private: System::Windows::Forms::Label^ label27;
-	private: System::Windows::Forms::Label^ label28;
-	private: System::Windows::Forms::Label^ label29;
-	private: System::Windows::Forms::Label^ label30;
-	private: System::Windows::Forms::Label^ label31;
-	private: System::Windows::Forms::Label^ label32;
+
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Label^ label33;
 
 
@@ -162,11 +162,14 @@ namespace eImobweb {
 
 
 
-private: System::Windows::Forms::Panel^ panel6;
-private: System::Windows::Forms::Panel^ panel7;
-private: System::Windows::Forms::Panel^ panel8;
-private: System::Windows::Forms::Label^ label17;
+
+
+
+
 private: System::Windows::Forms::Panel^ panel19;
+private: System::Windows::Forms::Panel^ panel1;
+private: System::Windows::Forms::PictureBox^ pictureBox3;
+private: System::Windows::Forms::Label^ label1;
 private: System::Windows::Forms::LinkLabel^ linkLabel7;
 private: System::Windows::Forms::PictureBox^ pictureBox5;
 private: System::Windows::Forms::LinkLabel^ linkLabel1;
@@ -183,8 +186,117 @@ private: System::Windows::Forms::PictureBox^ pictureBox8;
 private: System::Windows::Forms::PictureBox^ pictureBox6;
 private: System::Windows::Forms::PictureBox^ pictureBox9;
 private: System::Windows::Forms::LinkLabel^ linkLabel8;
-private: System::Windows::Forms::Panel^ panel3;
 private: System::Windows::Forms::PictureBox^ pictureBox4;
+private: System::Windows::Forms::Panel^ panel3;
+private: System::Windows::Forms::Label^ label10;
+private: System::Windows::Forms::Label^ label25;
+private: System::Windows::Forms::Label^ label24;
+private: System::Windows::Forms::Label^ label26;
+private: System::Windows::Forms::ComboBox^ comboBox1;
+private: System::Windows::Forms::Label^ label20;
+private: System::Windows::Forms::Label^ label6;
+private: System::Windows::Forms::Label^ label23;
+private: System::Windows::Forms::Label^ label27;
+private: System::Windows::Forms::Label^ label7;
+private: System::Windows::Forms::Label^ label19;
+private: System::Windows::Forms::ComboBox^ comboBox2;
+private: System::Windows::Forms::Label^ label5;
+private: System::Windows::Forms::TextBox^ tBvalor;
+private: System::Windows::Forms::TextBox^ tBAreaTerreno;
+private: System::Windows::Forms::TextBox^ tBareaConstruida;
+private: System::Windows::Forms::Panel^ panel7;
+private: System::Windows::Forms::Label^ label17;
+private: System::Windows::Forms::Label^ label28;
+private: System::Windows::Forms::Label^ label29;
+private: System::Windows::Forms::LinkLabel^ linkLabelValidarCep;
+private: System::Windows::Forms::Label^ label12;
+private: System::Windows::Forms::Label^ label30;
+private: System::Windows::Forms::Label^ label13;
+private: System::Windows::Forms::Label^ label31;
+private: System::Windows::Forms::Label^ label14;
+private: System::Windows::Forms::Label^ label16;
+private: System::Windows::Forms::Label^ label32;
+private: System::Windows::Forms::Label^ label15;
+private: System::Windows::Forms::Label^ label8;
+private: System::Windows::Forms::TextBox^ tBCep;
+private: System::Windows::Forms::TextBox^ tBrua;
+private: System::Windows::Forms::TextBox^ tBnumero;
+private: System::Windows::Forms::TextBox^ tBbairro;
+private: System::Windows::Forms::TextBox^ tBcidade;
+private: System::Windows::Forms::TextBox^ tBcomplemento;
+private: System::Windows::Forms::Panel^ panel8;
+private: System::Windows::Forms::Label^ label11;
+private: System::Windows::Forms::Label^ label9;
+private: System::Windows::Forms::Label^ label4;
+private: System::Windows::Forms::Label^ label22;
+private: System::Windows::Forms::Label^ label3;
+private: System::Windows::Forms::Label^ label21;
+private: System::Windows::Forms::Label^ label2;
+private: System::Windows::Forms::TextBox^ tBNomeProprie;
+private: System::Windows::Forms::TextBox^ tBtelefone;
+private: System::Windows::Forms::TextBox^ tBemail;
+private: System::Windows::Forms::Panel^ panel6;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -221,62 +333,12 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(CadastroDeImoveisForm::typeid));
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->tBNomeProprie = (gcnew System::Windows::Forms::TextBox());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->tBtelefone = (gcnew System::Windows::Forms::TextBox());
-			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->tBemail = (gcnew System::Windows::Forms::TextBox());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->tBvalor = (gcnew System::Windows::Forms::TextBox());
-			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->tBAreaTerreno = (gcnew System::Windows::Forms::TextBox());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->tBareaConstruida = (gcnew System::Windows::Forms::TextBox());
-			this->label8 = (gcnew System::Windows::Forms::Label());
-			this->tBCep = (gcnew System::Windows::Forms::TextBox());
-			this->linkLabelValidarCep = (gcnew System::Windows::Forms::LinkLabel());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->tBrua = (gcnew System::Windows::Forms::TextBox());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->tBnumero = (gcnew System::Windows::Forms::TextBox());
-			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->tBbairro = (gcnew System::Windows::Forms::TextBox());
-			this->label15 = (gcnew System::Windows::Forms::Label());
-			this->tBcidade = (gcnew System::Windows::Forms::TextBox());
-			this->label16 = (gcnew System::Windows::Forms::Label());
-			this->tBcomplemento = (gcnew System::Windows::Forms::TextBox());
-			this->label17 = (gcnew System::Windows::Forms::Label());
 			this->tBdescricao = (gcnew System::Windows::Forms::TextBox());
 			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
-			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
-			this->label19 = (gcnew System::Windows::Forms::Label());
-			this->label20 = (gcnew System::Windows::Forms::Label());
 			this->linkLabel4 = (gcnew System::Windows::Forms::LinkLabel());
-			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->label22 = (gcnew System::Windows::Forms::Label());
-			this->label23 = (gcnew System::Windows::Forms::Label());
-			this->label24 = (gcnew System::Windows::Forms::Label());
-			this->label25 = (gcnew System::Windows::Forms::Label());
-			this->label26 = (gcnew System::Windows::Forms::Label());
-			this->label27 = (gcnew System::Windows::Forms::Label());
-			this->label28 = (gcnew System::Windows::Forms::Label());
-			this->label29 = (gcnew System::Windows::Forms::Label());
-			this->label30 = (gcnew System::Windows::Forms::Label());
-			this->label31 = (gcnew System::Windows::Forms::Label());
-			this->label32 = (gcnew System::Windows::Forms::Label());
 			this->label33 = (gcnew System::Windows::Forms::Label());
-			this->panel6 = (gcnew System::Windows::Forms::Panel());
-			this->panel7 = (gcnew System::Windows::Forms::Panel());
-			this->panel8 = (gcnew System::Windows::Forms::Panel());
 			this->panel19 = (gcnew System::Windows::Forms::Panel());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->linkLabel7 = (gcnew System::Windows::Forms::LinkLabel());
 			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
 			this->linkLabel1 = (gcnew System::Windows::Forms::LinkLabel());
@@ -293,14 +355,60 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->pictureBox6 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox9 = (gcnew System::Windows::Forms::PictureBox());
 			this->linkLabel8 = (gcnew System::Windows::Forms::LinkLabel());
-			this->panel3 = (gcnew System::Windows::Forms::Panel());
 			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
-			this->panel1->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
-			this->panel6->SuspendLayout();
-			this->panel7->SuspendLayout();
-			this->panel8->SuspendLayout();
+			this->panel3 = (gcnew System::Windows::Forms::Panel());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->label26 = (gcnew System::Windows::Forms::Label());
+			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label23 = (gcnew System::Windows::Forms::Label());
+			this->label27 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->tBvalor = (gcnew System::Windows::Forms::TextBox());
+			this->tBAreaTerreno = (gcnew System::Windows::Forms::TextBox());
+			this->tBareaConstruida = (gcnew System::Windows::Forms::TextBox());
+			this->panel7 = (gcnew System::Windows::Forms::Panel());
+			this->label17 = (gcnew System::Windows::Forms::Label());
+			this->label28 = (gcnew System::Windows::Forms::Label());
+			this->label29 = (gcnew System::Windows::Forms::Label());
+			this->linkLabelValidarCep = (gcnew System::Windows::Forms::LinkLabel());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label30 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label31 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label16 = (gcnew System::Windows::Forms::Label());
+			this->label32 = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->tBCep = (gcnew System::Windows::Forms::TextBox());
+			this->tBrua = (gcnew System::Windows::Forms::TextBox());
+			this->tBnumero = (gcnew System::Windows::Forms::TextBox());
+			this->tBbairro = (gcnew System::Windows::Forms::TextBox());
+			this->tBcidade = (gcnew System::Windows::Forms::TextBox());
+			this->tBcomplemento = (gcnew System::Windows::Forms::TextBox());
+			this->panel8 = (gcnew System::Windows::Forms::Panel());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->label21 = (gcnew System::Windows::Forms::Label());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->tBNomeProprie = (gcnew System::Windows::Forms::TextBox());
+			this->tBtelefone = (gcnew System::Windows::Forms::TextBox());
+			this->tBemail = (gcnew System::Windows::Forms::TextBox());
+			this->panel6 = (gcnew System::Windows::Forms::Panel());
+			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->panel19->SuspendLayout();
+			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
@@ -308,403 +416,13 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox8))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox9))->BeginInit();
-			this->panel3->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
+			this->panel3->SuspendLayout();
+			this->panel7->SuspendLayout();
+			this->panel8->SuspendLayout();
+			this->panel6->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->SuspendLayout();
-			// 
-			// panel1
-			// 
-			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel1->Controls->Add(this->pictureBox3);
-			this->panel1->Controls->Add(this->label1);
-			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel1->Location = System::Drawing::Point(0, 0);
-			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1904, 110);
-			this->panel1->TabIndex = 1;
-			// 
-			// pictureBox3
-			// 
-			this->pictureBox3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(10, 10);
-			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(97, 75);
-			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox3->TabIndex = 0;
-			this->pictureBox3->TabStop = false;
-			// 
-			// label1
-			// 
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(302, 10);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(1180, 66);
-			this->label1->TabIndex = 1;
-			this->label1->Text = L"Cadastro de imóveis";
-			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label2
-			// 
-			this->label2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(62, 12);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(106, 24);
-			this->label2->TabIndex = 4;
-			this->label2->Text = L"Proprietário";
-			// 
-			// tBNomeProprie
-			// 
-			this->tBNomeProprie->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBNomeProprie->Location = System::Drawing::Point(178, 14);
-			this->tBNomeProprie->Name = L"tBNomeProprie";
-			this->tBNomeProprie->Size = System::Drawing::Size(296, 20);
-			this->tBNomeProprie->TabIndex = 5;
-			this->tBNomeProprie->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBNomeProprie_TextChanged);
-			// 
-			// label3
-			// 
-			this->label3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label3->Location = System::Drawing::Point(20, 58);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(149, 24);
-			this->label3->TabIndex = 6;
-			this->label3->Text = L"Telefone/Celular";
-			// 
-			// tBtelefone
-			// 
-			this->tBtelefone->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBtelefone->Location = System::Drawing::Point(178, 58);
-			this->tBtelefone->Name = L"tBtelefone";
-			this->tBtelefone->Size = System::Drawing::Size(296, 20);
-			this->tBtelefone->TabIndex = 7;
-			this->tBtelefone->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBtelefone_TextChanged);
-			// 
-			// label4
-			// 
-			this->label4->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label4->Location = System::Drawing::Point(107, 103);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(57, 24);
-			this->label4->TabIndex = 8;
-			this->label4->Text = L"Email";
-			// 
-			// tBemail
-			// 
-			this->tBemail->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBemail->Location = System::Drawing::Point(178, 103);
-			this->tBemail->Name = L"tBemail";
-			this->tBemail->Size = System::Drawing::Size(296, 20);
-			this->tBemail->TabIndex = 9;
-			this->tBemail->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBemail_TextChanged);
-			// 
-			// label5
-			// 
-			this->label5->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label5->Location = System::Drawing::Point(7, 42);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(141, 24);
-			this->label5->TabIndex = 10;
-			this->label5->Text = L"Valor do Imóvel";
-			// 
-			// tBvalor
-			// 
-			this->tBvalor->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBvalor->Location = System::Drawing::Point(162, 43);
-			this->tBvalor->Name = L"tBvalor";
-			this->tBvalor->Size = System::Drawing::Size(100, 20);
-			this->tBvalor->TabIndex = 11;
-			this->tBvalor->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBvalor_TextChanged);
-			// 
-			// label6
-			// 
-			this->label6->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label6->AutoSize = true;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label6->Location = System::Drawing::Point(7, 102);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(150, 24);
-			this->label6->TabIndex = 12;
-			this->label6->Text = L"Área do Terreno";
-			this->label6->Click += gcnew System::EventHandler(this, &CadastroDeImoveisForm::label6_Click);
-			// 
-			// tBAreaTerreno
-			// 
-			this->tBAreaTerreno->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBAreaTerreno->Location = System::Drawing::Point(165, 106);
-			this->tBAreaTerreno->Name = L"tBAreaTerreno";
-			this->tBAreaTerreno->Size = System::Drawing::Size(100, 20);
-			this->tBAreaTerreno->TabIndex = 13;
-			this->tBAreaTerreno->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBAreaTerreno_TextChanged);
-			// 
-			// label7
-			// 
-			this->label7->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label7->AutoSize = true;
-			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label7->Location = System::Drawing::Point(321, 41);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(145, 24);
-			this->label7->TabIndex = 14;
-			this->label7->Text = L"Área Construída";
-			// 
-			// tBareaConstruida
-			// 
-			this->tBareaConstruida->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBareaConstruida->Location = System::Drawing::Point(472, 45);
-			this->tBareaConstruida->Name = L"tBareaConstruida";
-			this->tBareaConstruida->Size = System::Drawing::Size(100, 20);
-			this->tBareaConstruida->TabIndex = 15;
-			this->tBareaConstruida->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBareaConstruida_TextChanged);
-			// 
-			// label8
-			// 
-			this->label8->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label8->AutoSize = true;
-			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label8->Location = System::Drawing::Point(3, 20);
-			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(48, 24);
-			this->label8->TabIndex = 24;
-			this->label8->Text = L"CEP";
-			// 
-			// tBCep
-			// 
-			this->tBCep->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBCep->Location = System::Drawing::Point(55, 19);
-			this->tBCep->Name = L"tBCep";
-			this->tBCep->Size = System::Drawing::Size(133, 20);
-			this->tBCep->TabIndex = 25;
-			// 
-			// linkLabelValidarCep
-			// 
-			this->linkLabelValidarCep->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->linkLabelValidarCep->AutoSize = true;
-			this->linkLabelValidarCep->Cursor = System::Windows::Forms::Cursors::Hand;
-			this->linkLabelValidarCep->Location = System::Drawing::Point(220, 23);
-			this->linkLabelValidarCep->Name = L"linkLabelValidarCep";
-			this->linkLabelValidarCep->Size = System::Drawing::Size(72, 13);
-			this->linkLabelValidarCep->TabIndex = 27;
-			this->linkLabelValidarCep->TabStop = true;
-			this->linkLabelValidarCep->Text = L"Validar o CEP";
-			this->linkLabelValidarCep->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &CadastroDeImoveisForm::linkLabelValidarCep_LinkClicked);
-			// 
-			// label9
-			// 
-			this->label9->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label9->AutoSize = true;
-			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label9->ForeColor = System::Drawing::Color::Black;
-			this->label9->Location = System::Drawing::Point(354, 131);
-			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(154, 24);
-			this->label9->TabIndex = 28;
-			this->label9->Text = L"Dados do Cliente";
-			// 
-			// label10
-			// 
-			this->label10->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label10->AutoSize = true;
-			this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label10->ForeColor = System::Drawing::Color::Black;
-			this->label10->Location = System::Drawing::Point(354, 372);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(151, 24);
-			this->label10->TabIndex = 29;
-			this->label10->Text = L"Dados do Imóvel";
-			// 
-			// label11
-			// 
-			this->label11->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label11->AutoSize = true;
-			this->label11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label11->ForeColor = System::Drawing::Color::Black;
-			this->label11->Location = System::Drawing::Point(348, 613);
-			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(181, 24);
-			this->label11->TabIndex = 30;
-			this->label11->Text = L"Endereço do Imóvel";
-			// 
-			// label12
-			// 
-			this->label12->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label12->AutoSize = true;
-			this->label12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label12->Location = System::Drawing::Point(371, 11);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(108, 24);
-			this->label12->TabIndex = 31;
-			this->label12->Text = L"Logradouro";
-			// 
-			// tBrua
-			// 
-			this->tBrua->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBrua->Location = System::Drawing::Point(488, 14);
-			this->tBrua->Name = L"tBrua";
-			this->tBrua->Size = System::Drawing::Size(207, 20);
-			this->tBrua->TabIndex = 32;
-			// 
-			// label13
-			// 
-			this->label13->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label13->AutoSize = true;
-			this->label13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label13->Location = System::Drawing::Point(752, 14);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(79, 24);
-			this->label13->TabIndex = 34;
-			this->label13->Text = L"Número";
-			// 
-			// tBnumero
-			// 
-			this->tBnumero->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBnumero->Location = System::Drawing::Point(850, 16);
-			this->tBnumero->Name = L"tBnumero";
-			this->tBnumero->Size = System::Drawing::Size(81, 20);
-			this->tBnumero->TabIndex = 0;
-			this->tBnumero->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBnumero_TextChanged);
-			// 
-			// label14
-			// 
-			this->label14->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label14->AutoSize = true;
-			this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label14->Location = System::Drawing::Point(7, 95);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(59, 24);
-			this->label14->TabIndex = 36;
-			this->label14->Text = L"Bairro";
-			// 
-			// tBbairro
-			// 
-			this->tBbairro->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBbairro->Location = System::Drawing::Point(72, 97);
-			this->tBbairro->Name = L"tBbairro";
-			this->tBbairro->Size = System::Drawing::Size(207, 20);
-			this->tBbairro->TabIndex = 38;
-			// 
-			// label15
-			// 
-			this->label15->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label15->AutoSize = true;
-			this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label15->Location = System::Drawing::Point(371, 93);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(70, 24);
-			this->label15->TabIndex = 38;
-			this->label15->Text = L"Cidade";
-			// 
-			// tBcidade
-			// 
-			this->tBcidade->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBcidade->Location = System::Drawing::Point(457, 95);
-			this->tBcidade->Name = L"tBcidade";
-			this->tBcidade->Size = System::Drawing::Size(207, 20);
-			this->tBcidade->TabIndex = 40;
-			this->tBcidade->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBcidade_TextChanged);
-			// 
-			// label16
-			// 
-			this->label16->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label16->AutoSize = true;
-			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label16->Location = System::Drawing::Point(724, 93);
-			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(129, 24);
-			this->label16->TabIndex = 40;
-			this->label16->Text = L"Complemento";
-			// 
-			// tBcomplemento
-			// 
-			this->tBcomplemento->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->tBcomplemento->Location = System::Drawing::Point(868, 95);
-			this->tBcomplemento->Name = L"tBcomplemento";
-			this->tBcomplemento->Size = System::Drawing::Size(207, 20);
-			this->tBcomplemento->TabIndex = 42;
-			// 
-			// label17
-			// 
-			this->label17->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label17->AutoSize = true;
-			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label17->ForeColor = System::Drawing::Color::Black;
-			this->label17->Location = System::Drawing::Point(345, 856);
-			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(181, 24);
-			this->label17->TabIndex = 42;
-			this->label17->Text = L"Descrição do Imóvel";
 			// 
 			// tBdescricao
 			// 
@@ -731,63 +449,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->label18->TabIndex = 44;
 			this->label18->Text = L"Descrição";
 			// 
-			// comboBox2
-			// 
-			this->comboBox2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->comboBox2->Cursor = System::Windows::Forms::Cursors::Hand;
-			this->comboBox2->FormattingEnabled = true;
-			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Venda", L"Aluguel", L"Venda e Aluguel" });
-			this->comboBox2->Location = System::Drawing::Point(756, 41);
-			this->comboBox2->Name = L"comboBox2";
-			this->comboBox2->Size = System::Drawing::Size(148, 21);
-			this->comboBox2->TabIndex = 45;
-			this->comboBox2->SelectedIndexChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::comboBox2_SelectedIndexChanged);
-			// 
-			// comboBox1
-			// 
-			this->comboBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->comboBox1->Cursor = System::Windows::Forms::Cursors::Hand;
-			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(9) {
-				L"Casa", L"Apartamento", L"Terreno", L"Kitnet",
-					L"Flat", L"Sobrado", L"Sítio", L"Rancho", L"Chácara"
-			});
-			this->comboBox1->Location = System::Drawing::Point(1105, 43);
-			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(121, 21);
-			this->comboBox1->TabIndex = 46;
-			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::comboBox1_SelectedIndexChanged);
-			// 
-			// label19
-			// 
-			this->label19->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label19->AutoSize = true;
-			this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label19->Location = System::Drawing::Point(659, 38);
-			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(95, 24);
-			this->label19->TabIndex = 47;
-			this->label19->Text = L"Pretensão";
-			// 
-			// label20
-			// 
-			this->label20->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label20->AutoSize = true;
-			this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
-			this->label20->Location = System::Drawing::Point(964, 41);
-			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(135, 24);
-			this->label20->TabIndex = 48;
-			this->label20->Text = L"Tipo de Imóvel";
-			// 
 			// linkLabel4
 			// 
 			this->linkLabel4->ActiveLinkColor = System::Drawing::Color::Lime;
@@ -806,161 +467,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->linkLabel4->Text = L"Salvar";
 			this->linkLabel4->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &CadastroDeImoveisForm::linkLabel4_LinkClicked);
 			// 
-			// label21
-			// 
-			this->label21->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label21->AutoSize = true;
-			this->label21->ForeColor = System::Drawing::Color::Red;
-			this->label21->Location = System::Drawing::Point(466, 2);
-			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(11, 13);
-			this->label21->TabIndex = 50;
-			this->label21->Text = L"*";
-			// 
-			// label22
-			// 
-			this->label22->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label22->AutoSize = true;
-			this->label22->ForeColor = System::Drawing::Color::Red;
-			this->label22->Location = System::Drawing::Point(466, 42);
-			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(11, 13);
-			this->label22->TabIndex = 51;
-			this->label22->Text = L"*";
-			// 
-			// label23
-			// 
-			this->label23->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label23->AutoSize = true;
-			this->label23->ForeColor = System::Drawing::Color::Red;
-			this->label23->Location = System::Drawing::Point(250, 30);
-			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(11, 13);
-			this->label23->TabIndex = 52;
-			this->label23->Text = L"*";
-			this->label23->Click += gcnew System::EventHandler(this, &CadastroDeImoveisForm::label23_Click);
-			// 
-			// label24
-			// 
-			this->label24->AccessibleDescription = L"]";
-			this->label24->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label24->AutoSize = true;
-			this->label24->ForeColor = System::Drawing::Color::Red;
-			this->label24->Location = System::Drawing::Point(251, 86);
-			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(11, 13);
-			this->label24->TabIndex = 53;
-			this->label24->Text = L"*";
-			// 
-			// label25
-			// 
-			this->label25->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label25->AutoSize = true;
-			this->label25->ForeColor = System::Drawing::Color::Red;
-			this->label25->Location = System::Drawing::Point(561, 30);
-			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(11, 13);
-			this->label25->TabIndex = 54;
-			this->label25->Text = L"*";
-			// 
-			// label26
-			// 
-			this->label26->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label26->AutoSize = true;
-			this->label26->ForeColor = System::Drawing::Color::Red;
-			this->label26->Location = System::Drawing::Point(893, 25);
-			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(11, 13);
-			this->label26->TabIndex = 55;
-			this->label26->Text = L"*";
-			// 
-			// label27
-			// 
-			this->label27->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label27->AutoSize = true;
-			this->label27->ForeColor = System::Drawing::Color::Red;
-			this->label27->Location = System::Drawing::Point(1215, 25);
-			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(11, 13);
-			this->label27->TabIndex = 56;
-			this->label27->Text = L"*";
-			// 
-			// label28
-			// 
-			this->label28->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label28->AutoSize = true;
-			this->label28->ForeColor = System::Drawing::Color::Red;
-			this->label28->Location = System::Drawing::Point(177, 5);
-			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(11, 13);
-			this->label28->TabIndex = 57;
-			this->label28->Text = L"*";
-			// 
-			// label29
-			// 
-			this->label29->AutoSize = true;
-			this->label29->ForeColor = System::Drawing::Color::Red;
-			this->label29->Location = System::Drawing::Point(685, 0);
-			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(11, 13);
-			this->label29->TabIndex = 58;
-			this->label29->Text = L"*";
-			// 
-			// label30
-			// 
-			this->label30->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label30->AutoSize = true;
-			this->label30->ForeColor = System::Drawing::Color::Red;
-			this->label30->Location = System::Drawing::Point(920, 3);
-			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(11, 13);
-			this->label30->TabIndex = 59;
-			this->label30->Text = L"*";
-			// 
-			// label31
-			// 
-			this->label31->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label31->AutoSize = true;
-			this->label31->ForeColor = System::Drawing::Color::Red;
-			this->label31->Location = System::Drawing::Point(270, 82);
-			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(11, 13);
-			this->label31->TabIndex = 60;
-			this->label31->Text = L"*";
-			// 
-			// label32
-			// 
-			this->label32->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label32->AutoSize = true;
-			this->label32->ForeColor = System::Drawing::Color::Red;
-			this->label32->Location = System::Drawing::Point(653, 82);
-			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(11, 13);
-			this->label32->TabIndex = 61;
-			this->label32->Text = L"*";
-			// 
 			// label33
 			// 
 			this->label33->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Left));
@@ -971,83 +477,6 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->label33->Size = System::Drawing::Size(11, 13);
 			this->label33->TabIndex = 62;
 			this->label33->Text = L"*";
-			// 
-			// panel6
-			// 
-			this->panel6->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->panel6->BackColor = System::Drawing::SystemColors::MenuBar;
-			this->panel6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel6->Controls->Add(this->tBemail);
-			this->panel6->Controls->Add(this->tBtelefone);
-			this->panel6->Controls->Add(this->tBNomeProprie);
-			this->panel6->Controls->Add(this->label2);
-			this->panel6->Controls->Add(this->label21);
-			this->panel6->Controls->Add(this->label3);
-			this->panel6->Controls->Add(this->label22);
-			this->panel6->Controls->Add(this->label4);
-			this->panel6->Location = System::Drawing::Point(355, 158);
-			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(1277, 170);
-			this->panel6->TabIndex = 63;
-			// 
-			// panel7
-			// 
-			this->panel7->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->panel7->BackColor = System::Drawing::SystemColors::MenuBar;
-			this->panel7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel7->Controls->Add(this->tBareaConstruida);
-			this->panel7->Controls->Add(this->tBAreaTerreno);
-			this->panel7->Controls->Add(this->tBvalor);
-			this->panel7->Controls->Add(this->label5);
-			this->panel7->Controls->Add(this->comboBox2);
-			this->panel7->Controls->Add(this->label19);
-			this->panel7->Controls->Add(this->label7);
-			this->panel7->Controls->Add(this->label27);
-			this->panel7->Controls->Add(this->label23);
-			this->panel7->Controls->Add(this->label6);
-			this->panel7->Controls->Add(this->label20);
-			this->panel7->Controls->Add(this->comboBox1);
-			this->panel7->Controls->Add(this->label26);
-			this->panel7->Controls->Add(this->label24);
-			this->panel7->Controls->Add(this->label25);
-			this->panel7->Location = System::Drawing::Point(352, 399);
-			this->panel7->Name = L"panel7";
-			this->panel7->Size = System::Drawing::Size(1280, 179);
-			this->panel7->TabIndex = 64;
-			// 
-			// panel8
-			// 
-			this->panel8->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->panel8->BackColor = System::Drawing::SystemColors::MenuBar;
-			this->panel8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel8->Controls->Add(this->tBcomplemento);
-			this->panel8->Controls->Add(this->tBcidade);
-			this->panel8->Controls->Add(this->tBbairro);
-			this->panel8->Controls->Add(this->tBnumero);
-			this->panel8->Controls->Add(this->tBrua);
-			this->panel8->Controls->Add(this->tBCep);
-			this->panel8->Controls->Add(this->label8);
-			this->panel8->Controls->Add(this->label15);
-			this->panel8->Controls->Add(this->label32);
-			this->panel8->Controls->Add(this->label16);
-			this->panel8->Controls->Add(this->label14);
-			this->panel8->Controls->Add(this->label31);
-			this->panel8->Controls->Add(this->label13);
-			this->panel8->Controls->Add(this->label30);
-			this->panel8->Controls->Add(this->label12);
-			this->panel8->Controls->Add(this->linkLabelValidarCep);
-			this->panel8->Controls->Add(this->label29);
-			this->panel8->Controls->Add(this->label28);
-			this->panel8->Location = System::Drawing::Point(349, 640);
-			this->panel8->Name = L"panel8";
-			this->panel8->Size = System::Drawing::Size(1280, 173);
-			this->panel8->TabIndex = 65;
 			// 
 			// panel19
 			// 
@@ -1063,6 +492,17 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->panel19->Name = L"panel19";
 			this->panel19->Size = System::Drawing::Size(1280, 146);
 			this->panel19->TabIndex = 66;
+			// 
+			// panel1
+			// 
+			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->panel1->Controls->Add(this->pictureBox3);
+			this->panel1->Controls->Add(this->label1);
+			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel1->Location = System::Drawing::Point(0, 0);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(1904, 110);
+			this->panel1->TabIndex = 1;
 			// 
 			// linkLabel7
 			// 
@@ -1261,6 +701,16 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->linkLabel8->Text = L"GitHub";
 			this->linkLabel8->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &CadastroDeImoveisForm::linkLabel8_LinkClicked);
 			// 
+			// pictureBox4
+			// 
+			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
+			this->pictureBox4->Location = System::Drawing::Point(3, 845);
+			this->pictureBox4->Name = L"pictureBox4";
+			this->pictureBox4->Size = System::Drawing::Size(26, 33);
+			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox4->TabIndex = 74;
+			this->pictureBox4->TabStop = false;
+			// 
 			// panel3
 			// 
 			this->panel3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
@@ -1287,15 +737,677 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->panel3->Size = System::Drawing::Size(318, 931);
 			this->panel3->TabIndex = 3;
 			// 
-			// pictureBox4
+			// label10
 			// 
-			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(3, 845);
-			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(26, 33);
-			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox4->TabIndex = 74;
-			this->pictureBox4->TabStop = false;
+			this->label10->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label10->AutoSize = true;
+			this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label10->ForeColor = System::Drawing::Color::Black;
+			this->label10->Location = System::Drawing::Point(354, 372);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(151, 24);
+			this->label10->TabIndex = 29;
+			this->label10->Text = L"Dados do Imóvel";
+			// 
+			// label25
+			// 
+			this->label25->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label25->AutoSize = true;
+			this->label25->ForeColor = System::Drawing::Color::Red;
+			this->label25->Location = System::Drawing::Point(561, 30);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(11, 13);
+			this->label25->TabIndex = 54;
+			this->label25->Text = L"*";
+			// 
+			// label24
+			// 
+			this->label24->AccessibleDescription = L"]";
+			this->label24->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label24->AutoSize = true;
+			this->label24->ForeColor = System::Drawing::Color::Red;
+			this->label24->Location = System::Drawing::Point(251, 86);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(11, 13);
+			this->label24->TabIndex = 53;
+			this->label24->Text = L"*";
+			// 
+			// label26
+			// 
+			this->label26->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label26->AutoSize = true;
+			this->label26->ForeColor = System::Drawing::Color::Red;
+			this->label26->Location = System::Drawing::Point(893, 25);
+			this->label26->Name = L"label26";
+			this->label26->Size = System::Drawing::Size(11, 13);
+			this->label26->TabIndex = 55;
+			this->label26->Text = L"*";
+			// 
+			// comboBox1
+			// 
+			this->comboBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->comboBox1->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->comboBox1->FormattingEnabled = true;
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(9) {
+				L"Casa", L"Apartamento", L"Terreno", L"Kitnet",
+					L"Flat", L"Sobrado", L"Sítio", L"Rancho", L"Chácara"
+			});
+			this->comboBox1->Location = System::Drawing::Point(1105, 43);
+			this->comboBox1->Name = L"comboBox1";
+			this->comboBox1->Size = System::Drawing::Size(121, 21);
+			this->comboBox1->TabIndex = 46;
+			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::comboBox1_SelectedIndexChanged);
+			// 
+			// label20
+			// 
+			this->label20->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label20->AutoSize = true;
+			this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label20->Location = System::Drawing::Point(964, 41);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(135, 24);
+			this->label20->TabIndex = 48;
+			this->label20->Text = L"Tipo de Imóvel";
+			// 
+			// label6
+			// 
+			this->label6->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label6->AutoSize = true;
+			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label6->Location = System::Drawing::Point(7, 102);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(150, 24);
+			this->label6->TabIndex = 12;
+			this->label6->Text = L"Área do Terreno";
+			this->label6->Click += gcnew System::EventHandler(this, &CadastroDeImoveisForm::label6_Click);
+			// 
+			// label23
+			// 
+			this->label23->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label23->AutoSize = true;
+			this->label23->ForeColor = System::Drawing::Color::Red;
+			this->label23->Location = System::Drawing::Point(250, 30);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(11, 13);
+			this->label23->TabIndex = 52;
+			this->label23->Text = L"*";
+			this->label23->Click += gcnew System::EventHandler(this, &CadastroDeImoveisForm::label23_Click);
+			// 
+			// label27
+			// 
+			this->label27->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label27->AutoSize = true;
+			this->label27->ForeColor = System::Drawing::Color::Red;
+			this->label27->Location = System::Drawing::Point(1215, 25);
+			this->label27->Name = L"label27";
+			this->label27->Size = System::Drawing::Size(11, 13);
+			this->label27->TabIndex = 56;
+			this->label27->Text = L"*";
+			// 
+			// label7
+			// 
+			this->label7->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label7->AutoSize = true;
+			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label7->Location = System::Drawing::Point(321, 41);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(145, 24);
+			this->label7->TabIndex = 14;
+			this->label7->Text = L"Área Construída";
+			// 
+			// label19
+			// 
+			this->label19->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label19->AutoSize = true;
+			this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label19->Location = System::Drawing::Point(659, 38);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(95, 24);
+			this->label19->TabIndex = 47;
+			this->label19->Text = L"Pretensão";
+			// 
+			// comboBox2
+			// 
+			this->comboBox2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->comboBox2->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->comboBox2->FormattingEnabled = true;
+			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Venda", L"Aluguel", L"Venda e Aluguel" });
+			this->comboBox2->Location = System::Drawing::Point(756, 41);
+			this->comboBox2->Name = L"comboBox2";
+			this->comboBox2->Size = System::Drawing::Size(148, 21);
+			this->comboBox2->TabIndex = 45;
+			this->comboBox2->SelectedIndexChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::comboBox2_SelectedIndexChanged);
+			// 
+			// label5
+			// 
+			this->label5->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label5->AutoSize = true;
+			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label5->Location = System::Drawing::Point(7, 42);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(141, 24);
+			this->label5->TabIndex = 10;
+			this->label5->Text = L"Valor do Imóvel";
+			// 
+			// tBvalor
+			// 
+			this->tBvalor->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBvalor->Location = System::Drawing::Point(162, 43);
+			this->tBvalor->Name = L"tBvalor";
+			this->tBvalor->Size = System::Drawing::Size(100, 20);
+			this->tBvalor->TabIndex = 11;
+			this->tBvalor->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBvalor_TextChanged);
+			// 
+			// tBAreaTerreno
+			// 
+			this->tBAreaTerreno->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBAreaTerreno->Location = System::Drawing::Point(165, 106);
+			this->tBAreaTerreno->Name = L"tBAreaTerreno";
+			this->tBAreaTerreno->Size = System::Drawing::Size(100, 20);
+			this->tBAreaTerreno->TabIndex = 13;
+			this->tBAreaTerreno->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBAreaTerreno_TextChanged);
+			// 
+			// tBareaConstruida
+			// 
+			this->tBareaConstruida->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBareaConstruida->Location = System::Drawing::Point(472, 45);
+			this->tBareaConstruida->Name = L"tBareaConstruida";
+			this->tBareaConstruida->Size = System::Drawing::Size(100, 20);
+			this->tBareaConstruida->TabIndex = 15;
+			this->tBareaConstruida->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBareaConstruida_TextChanged);
+			// 
+			// panel7
+			// 
+			this->panel7->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->panel7->BackColor = System::Drawing::SystemColors::MenuBar;
+			this->panel7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->panel7->Controls->Add(this->tBareaConstruida);
+			this->panel7->Controls->Add(this->tBAreaTerreno);
+			this->panel7->Controls->Add(this->tBvalor);
+			this->panel7->Controls->Add(this->label5);
+			this->panel7->Controls->Add(this->comboBox2);
+			this->panel7->Controls->Add(this->label19);
+			this->panel7->Controls->Add(this->label7);
+			this->panel7->Controls->Add(this->label27);
+			this->panel7->Controls->Add(this->label23);
+			this->panel7->Controls->Add(this->label6);
+			this->panel7->Controls->Add(this->label20);
+			this->panel7->Controls->Add(this->comboBox1);
+			this->panel7->Controls->Add(this->label26);
+			this->panel7->Controls->Add(this->label24);
+			this->panel7->Controls->Add(this->label25);
+			this->panel7->Location = System::Drawing::Point(352, 399);
+			this->panel7->Name = L"panel7";
+			this->panel7->Size = System::Drawing::Size(1280, 179);
+			this->panel7->TabIndex = 64;
+			// 
+			// label17
+			// 
+			this->label17->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label17->AutoSize = true;
+			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label17->ForeColor = System::Drawing::Color::Black;
+			this->label17->Location = System::Drawing::Point(345, 856);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(181, 24);
+			this->label17->TabIndex = 42;
+			this->label17->Text = L"Descrição do Imóvel";
+			// 
+			// label28
+			// 
+			this->label28->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label28->AutoSize = true;
+			this->label28->ForeColor = System::Drawing::Color::Red;
+			this->label28->Location = System::Drawing::Point(177, 5);
+			this->label28->Name = L"label28";
+			this->label28->Size = System::Drawing::Size(11, 13);
+			this->label28->TabIndex = 57;
+			this->label28->Text = L"*";
+			// 
+			// label29
+			// 
+			this->label29->AutoSize = true;
+			this->label29->ForeColor = System::Drawing::Color::Red;
+			this->label29->Location = System::Drawing::Point(685, 0);
+			this->label29->Name = L"label29";
+			this->label29->Size = System::Drawing::Size(11, 13);
+			this->label29->TabIndex = 58;
+			this->label29->Text = L"*";
+			// 
+			// linkLabelValidarCep
+			// 
+			this->linkLabelValidarCep->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->linkLabelValidarCep->AutoSize = true;
+			this->linkLabelValidarCep->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->linkLabelValidarCep->Location = System::Drawing::Point(220, 23);
+			this->linkLabelValidarCep->Name = L"linkLabelValidarCep";
+			this->linkLabelValidarCep->Size = System::Drawing::Size(72, 13);
+			this->linkLabelValidarCep->TabIndex = 27;
+			this->linkLabelValidarCep->TabStop = true;
+			this->linkLabelValidarCep->Text = L"Validar o CEP";
+			this->linkLabelValidarCep->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &CadastroDeImoveisForm::linkLabelValidarCep_LinkClicked);
+			// 
+			// label12
+			// 
+			this->label12->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label12->AutoSize = true;
+			this->label12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label12->Location = System::Drawing::Point(371, 11);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(108, 24);
+			this->label12->TabIndex = 31;
+			this->label12->Text = L"Logradouro";
+			// 
+			// label30
+			// 
+			this->label30->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label30->AutoSize = true;
+			this->label30->ForeColor = System::Drawing::Color::Red;
+			this->label30->Location = System::Drawing::Point(920, 3);
+			this->label30->Name = L"label30";
+			this->label30->Size = System::Drawing::Size(11, 13);
+			this->label30->TabIndex = 59;
+			this->label30->Text = L"*";
+			// 
+			// label13
+			// 
+			this->label13->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label13->AutoSize = true;
+			this->label13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label13->Location = System::Drawing::Point(752, 14);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(79, 24);
+			this->label13->TabIndex = 34;
+			this->label13->Text = L"Número";
+			// 
+			// label31
+			// 
+			this->label31->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label31->AutoSize = true;
+			this->label31->ForeColor = System::Drawing::Color::Red;
+			this->label31->Location = System::Drawing::Point(270, 82);
+			this->label31->Name = L"label31";
+			this->label31->Size = System::Drawing::Size(11, 13);
+			this->label31->TabIndex = 60;
+			this->label31->Text = L"*";
+			// 
+			// label14
+			// 
+			this->label14->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label14->AutoSize = true;
+			this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label14->Location = System::Drawing::Point(7, 95);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(59, 24);
+			this->label14->TabIndex = 36;
+			this->label14->Text = L"Bairro";
+			// 
+			// label16
+			// 
+			this->label16->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label16->AutoSize = true;
+			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label16->Location = System::Drawing::Point(724, 93);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(129, 24);
+			this->label16->TabIndex = 40;
+			this->label16->Text = L"Complemento";
+			// 
+			// label32
+			// 
+			this->label32->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label32->AutoSize = true;
+			this->label32->ForeColor = System::Drawing::Color::Red;
+			this->label32->Location = System::Drawing::Point(653, 82);
+			this->label32->Name = L"label32";
+			this->label32->Size = System::Drawing::Size(11, 13);
+			this->label32->TabIndex = 61;
+			this->label32->Text = L"*";
+			// 
+			// label15
+			// 
+			this->label15->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label15->AutoSize = true;
+			this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label15->Location = System::Drawing::Point(371, 93);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(70, 24);
+			this->label15->TabIndex = 38;
+			this->label15->Text = L"Cidade";
+			// 
+			// label8
+			// 
+			this->label8->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label8->AutoSize = true;
+			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label8->Location = System::Drawing::Point(3, 20);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(48, 24);
+			this->label8->TabIndex = 24;
+			this->label8->Text = L"CEP";
+			// 
+			// tBCep
+			// 
+			this->tBCep->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBCep->Location = System::Drawing::Point(55, 19);
+			this->tBCep->Name = L"tBCep";
+			this->tBCep->Size = System::Drawing::Size(133, 20);
+			this->tBCep->TabIndex = 25;
+			// 
+			// tBrua
+			// 
+			this->tBrua->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBrua->Location = System::Drawing::Point(488, 14);
+			this->tBrua->Name = L"tBrua";
+			this->tBrua->Size = System::Drawing::Size(207, 20);
+			this->tBrua->TabIndex = 32;
+			// 
+			// tBnumero
+			// 
+			this->tBnumero->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBnumero->Location = System::Drawing::Point(850, 16);
+			this->tBnumero->Name = L"tBnumero";
+			this->tBnumero->Size = System::Drawing::Size(81, 20);
+			this->tBnumero->TabIndex = 0;
+			this->tBnumero->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBnumero_TextChanged);
+			// 
+			// tBbairro
+			// 
+			this->tBbairro->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBbairro->Location = System::Drawing::Point(72, 97);
+			this->tBbairro->Name = L"tBbairro";
+			this->tBbairro->Size = System::Drawing::Size(207, 20);
+			this->tBbairro->TabIndex = 38;
+			// 
+			// tBcidade
+			// 
+			this->tBcidade->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBcidade->Location = System::Drawing::Point(457, 95);
+			this->tBcidade->Name = L"tBcidade";
+			this->tBcidade->Size = System::Drawing::Size(207, 20);
+			this->tBcidade->TabIndex = 40;
+			this->tBcidade->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBcidade_TextChanged);
+			// 
+			// tBcomplemento
+			// 
+			this->tBcomplemento->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBcomplemento->Location = System::Drawing::Point(868, 95);
+			this->tBcomplemento->Name = L"tBcomplemento";
+			this->tBcomplemento->Size = System::Drawing::Size(207, 20);
+			this->tBcomplemento->TabIndex = 42;
+			// 
+			// panel8
+			// 
+			this->panel8->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->panel8->BackColor = System::Drawing::SystemColors::MenuBar;
+			this->panel8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->panel8->Controls->Add(this->tBcomplemento);
+			this->panel8->Controls->Add(this->tBcidade);
+			this->panel8->Controls->Add(this->tBbairro);
+			this->panel8->Controls->Add(this->tBnumero);
+			this->panel8->Controls->Add(this->tBrua);
+			this->panel8->Controls->Add(this->tBCep);
+			this->panel8->Controls->Add(this->label8);
+			this->panel8->Controls->Add(this->label15);
+			this->panel8->Controls->Add(this->label32);
+			this->panel8->Controls->Add(this->label16);
+			this->panel8->Controls->Add(this->label14);
+			this->panel8->Controls->Add(this->label31);
+			this->panel8->Controls->Add(this->label13);
+			this->panel8->Controls->Add(this->label30);
+			this->panel8->Controls->Add(this->label12);
+			this->panel8->Controls->Add(this->linkLabelValidarCep);
+			this->panel8->Controls->Add(this->label29);
+			this->panel8->Controls->Add(this->label28);
+			this->panel8->Location = System::Drawing::Point(349, 640);
+			this->panel8->Name = L"panel8";
+			this->panel8->Size = System::Drawing::Size(1280, 173);
+			this->panel8->TabIndex = 65;
+			// 
+			// label11
+			// 
+			this->label11->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label11->AutoSize = true;
+			this->label11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label11->ForeColor = System::Drawing::Color::Black;
+			this->label11->Location = System::Drawing::Point(348, 613);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(181, 24);
+			this->label11->TabIndex = 30;
+			this->label11->Text = L"Endereço do Imóvel";
+			// 
+			// label9
+			// 
+			this->label9->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label9->AutoSize = true;
+			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label9->ForeColor = System::Drawing::Color::Black;
+			this->label9->Location = System::Drawing::Point(354, 131);
+			this->label9->Name = L"label9";
+			this->label9->Size = System::Drawing::Size(154, 24);
+			this->label9->TabIndex = 28;
+			this->label9->Text = L"Dados do Cliente";
+			// 
+			// label4
+			// 
+			this->label4->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label4->AutoSize = true;
+			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label4->Location = System::Drawing::Point(107, 103);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(57, 24);
+			this->label4->TabIndex = 8;
+			this->label4->Text = L"Email";
+			// 
+			// label22
+			// 
+			this->label22->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label22->AutoSize = true;
+			this->label22->ForeColor = System::Drawing::Color::Red;
+			this->label22->Location = System::Drawing::Point(466, 42);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(11, 13);
+			this->label22->TabIndex = 51;
+			this->label22->Text = L"*";
+			// 
+			// label3
+			// 
+			this->label3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label3->AutoSize = true;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F));
+			this->label3->Location = System::Drawing::Point(20, 58);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(149, 24);
+			this->label3->TabIndex = 6;
+			this->label3->Text = L"Telefone/Celular";
+			// 
+			// label21
+			// 
+			this->label21->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label21->AutoSize = true;
+			this->label21->ForeColor = System::Drawing::Color::Red;
+			this->label21->Location = System::Drawing::Point(466, 2);
+			this->label21->Name = L"label21";
+			this->label21->Size = System::Drawing::Size(11, 13);
+			this->label21->TabIndex = 50;
+			this->label21->Text = L"*";
+			// 
+			// label2
+			// 
+			this->label2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label2->AutoSize = true;
+			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label2->Location = System::Drawing::Point(62, 12);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(106, 24);
+			this->label2->TabIndex = 4;
+			this->label2->Text = L"Proprietário";
+			// 
+			// tBNomeProprie
+			// 
+			this->tBNomeProprie->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBNomeProprie->Location = System::Drawing::Point(178, 14);
+			this->tBNomeProprie->Name = L"tBNomeProprie";
+			this->tBNomeProprie->Size = System::Drawing::Size(296, 20);
+			this->tBNomeProprie->TabIndex = 5;
+			this->tBNomeProprie->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBNomeProprie_TextChanged);
+			// 
+			// tBtelefone
+			// 
+			this->tBtelefone->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBtelefone->Location = System::Drawing::Point(178, 58);
+			this->tBtelefone->Name = L"tBtelefone";
+			this->tBtelefone->Size = System::Drawing::Size(296, 20);
+			this->tBtelefone->TabIndex = 7;
+			this->tBtelefone->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBtelefone_TextChanged);
+			// 
+			// tBemail
+			// 
+			this->tBemail->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->tBemail->Location = System::Drawing::Point(178, 103);
+			this->tBemail->Name = L"tBemail";
+			this->tBemail->Size = System::Drawing::Size(296, 20);
+			this->tBemail->TabIndex = 9;
+			this->tBemail->TextChanged += gcnew System::EventHandler(this, &CadastroDeImoveisForm::tBemail_TextChanged);
+			// 
+			// panel6
+			// 
+			this->panel6->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->panel6->BackColor = System::Drawing::SystemColors::MenuBar;
+			this->panel6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->panel6->Controls->Add(this->tBemail);
+			this->panel6->Controls->Add(this->tBtelefone);
+			this->panel6->Controls->Add(this->tBNomeProprie);
+			this->panel6->Controls->Add(this->label2);
+			this->panel6->Controls->Add(this->label21);
+			this->panel6->Controls->Add(this->label3);
+			this->panel6->Controls->Add(this->label22);
+			this->panel6->Controls->Add(this->label4);
+			this->panel6->Location = System::Drawing::Point(355, 158);
+			this->panel6->Name = L"panel6";
+			this->panel6->Size = System::Drawing::Size(1277, 170);
+			this->panel6->TabIndex = 63;
+			// 
+			// pictureBox3
+			// 
+			this->pictureBox3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
+			this->pictureBox3->Location = System::Drawing::Point(10, 10);
+			this->pictureBox3->Name = L"pictureBox3";
+			this->pictureBox3->Size = System::Drawing::Size(97, 75);
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox3->TabIndex = 0;
+			this->pictureBox3->TabStop = false;
+			// 
+			// label1
+			// 
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->Location = System::Drawing::Point(302, 10);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(1180, 66);
+			this->label1->TabIndex = 1;
+			this->label1->Text = L"Cadastro de imóveis";
+			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// CadastroDeImoveisForm
 			// 
@@ -1319,16 +1431,9 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			this->Text = L"e-Imobweb";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &CadastroDeImoveisForm::CadastroDeImoveisForm_Load);
-			this->panel1->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
-			this->panel6->ResumeLayout(false);
-			this->panel6->PerformLayout();
-			this->panel7->ResumeLayout(false);
-			this->panel7->PerformLayout();
-			this->panel8->ResumeLayout(false);
-			this->panel8->PerformLayout();
 			this->panel19->ResumeLayout(false);
 			this->panel19->PerformLayout();
+			this->panel1->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -1336,9 +1441,16 @@ private: System::Windows::Forms::PictureBox^ pictureBox4;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox8))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox9))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
 			this->panel3->ResumeLayout(false);
 			this->panel3->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
+			this->panel7->ResumeLayout(false);
+			this->panel7->PerformLayout();
+			this->panel8->ResumeLayout(false);
+			this->panel8->PerformLayout();
+			this->panel6->ResumeLayout(false);
+			this->panel6->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -1727,72 +1839,72 @@ private: System::Void linkLabel4_LinkClicked(System::Object^ sender, System::Win
 
 private: System::Void linkLabelValidarCep_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) {
 
-	// Obtém o CEP do campo tBCep
-	String^ CEP = tBCep->Text;
-	// Remover espaços e caracteres desnecessários
-	CEP = CEP->Trim()->Replace(" ", "")->Replace("-", "");
+		// Obtém o CEP do campo tBCep
+		String^ CEP = tBCep->Text;
+		// Remover espaços e caracteres desnecessários
+		CEP = CEP->Trim()->Replace(" ", "")->Replace("-", "");
 
-	try {
-		// Validação básica do CEP (8 dígitos)
-		if (CEP->Length != 8 || !System::Text::RegularExpressions::Regex::IsMatch(CEP, "^\\d{8}$")) {
-			MessageBox::Show("CEP inválido. Certifique-se de que contém exatamente 8 dígitos numéricos.",
-				"Erro no CEP", MessageBoxButtons::OK, MessageBoxIcon::Warning);
-			return;
+		try {
+			// Validação básica do CEP (8 dígitos)
+			if (CEP->Length != 8 || !System::Text::RegularExpressions::Regex::IsMatch(CEP, "^\\d{8}$")) {
+				MessageBox::Show("CEP inválido. Certifique-se de que contém exatamente 8 dígitos numéricos.",
+					"Erro no CEP", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+				return;
+			}
+
+
+			// URL da API ViaCEP
+			String^ url = "https://viacep.com.br/ws/" + CEP + "/json/";
+			HttpWebRequest^ request = dynamic_cast<HttpWebRequest^>(WebRequest::Create(url));
+			request->Method = "GET";
+
+			// Enviar requisição e obter resposta
+			HttpWebResponse^ response = dynamic_cast<HttpWebResponse^>(request->GetResponse());
+			Stream^ responseStream = response->GetResponseStream();
+			StreamReader^ reader = gcnew StreamReader(responseStream);
+			String^ jsonResponse = reader->ReadToEnd();
+
+			// Exibe o JSON retornado (opcional, para depuração)
+			// MessageBox::Show("JSON retornado: " + jsonResponse, "Depuração", MessageBoxButtons::OK, MessageBoxIcon::Information);
+
+			// Verifica se a API retornou um erro
+			if (jsonResponse->Contains("\"erro\"")) {
+				MessageBox::Show("CEP não encontrado. Verifique o número informado.",
+					"Erro no CEP", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+				return;
+			}
+
+			// Usando expressões regulares para extrair os dados do JSON
+			String^ logradouro = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"logradouro\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
+			String^ bairro = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"bairro\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
+			String^ localidade = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"localidade\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
+			String^ uf = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"uf\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
+
+
+			// Substituir valores vazios por "Informação não disponível"
+			if (String::IsNullOrEmpty(logradouro)) logradouro = "Informação não disponível";
+			if (String::IsNullOrEmpty(bairro)) bairro = "Informação não disponível";
+			if (String::IsNullOrEmpty(localidade)) localidade = "Informação não disponível";
+			if (String::IsNullOrEmpty(uf)) uf = "Informação não disponível";
+
+			// Preencher o campo tBendereco com os dados obtidos
+			tBrua->Text = logradouro;
+			tBbairro->Text = bairro;
+			tBcidade->Text = localidade + " - " + uf;
+
+			// Fechar os fluxos e a resposta
+			reader->Close();
+			responseStream->Close();
+			response->Close();
+
+			// Mensagem de sucesso
+			MessageBox::Show("Endereço preenchido com sucesso!", "Sucesso", MessageBoxButtons::OK, MessageBoxIcon::Information);
+
 		}
-
-
-		// URL da API ViaCEP
-		String^ url = "https://viacep.com.br/ws/" + CEP + "/json/";
-		HttpWebRequest^ request = dynamic_cast<HttpWebRequest^>(WebRequest::Create(url));
-		request->Method = "GET";
-
-		// Enviar requisição e obter resposta
-		HttpWebResponse^ response = dynamic_cast<HttpWebResponse^>(request->GetResponse());
-		Stream^ responseStream = response->GetResponseStream();
-		StreamReader^ reader = gcnew StreamReader(responseStream);
-		String^ jsonResponse = reader->ReadToEnd();
-
-		// Exibe o JSON retornado (opcional, para depuração)
-		// MessageBox::Show("JSON retornado: " + jsonResponse, "Depuração", MessageBoxButtons::OK, MessageBoxIcon::Information);
-
-		// Verifica se a API retornou um erro
-		if (jsonResponse->Contains("\"erro\"")) {
-			MessageBox::Show("CEP não encontrado. Verifique o número informado.",
-				"Erro no CEP", MessageBoxButtons::OK, MessageBoxIcon::Warning);
-			return;
+		catch (Exception^ ex) {
+			MessageBox::Show("Erro ao buscar o endereço pelo CEP: " + ex->Message,
+				"Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		}
-
-		// Usando expressões regulares para extrair os dados do JSON
-		String^ logradouro = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"logradouro\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
-		String^ bairro = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"bairro\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
-		String^ localidade = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"localidade\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
-		String^ uf = System::Text::RegularExpressions::Regex::Match(jsonResponse, "\"uf\"\\s*:\\s*\"([^\"]*)\"")->Groups[1]->Value;
-
-
-		// Substituir valores vazios por "Informação não disponível"
-		if (String::IsNullOrEmpty(logradouro)) logradouro = "Informação não disponível";
-		if (String::IsNullOrEmpty(bairro)) bairro = "Informação não disponível";
-		if (String::IsNullOrEmpty(localidade)) localidade = "Informação não disponível";
-		if (String::IsNullOrEmpty(uf)) uf = "Informação não disponível";
-
-		// Preencher o campo tBendereco com os dados obtidos
-		tBrua->Text = logradouro;
-		tBbairro->Text = bairro;
-		tBcidade->Text = localidade + " - " + uf;
-
-		// Fechar os fluxos e a resposta
-		reader->Close();
-		responseStream->Close();
-		response->Close();
-
-		// Mensagem de sucesso
-		MessageBox::Show("Endereço preenchido com sucesso!", "Sucesso", MessageBoxButtons::OK, MessageBoxIcon::Information);
-
-	}
-	catch (Exception^ ex) {
-		MessageBox::Show("Erro ao buscar o endereço pelo CEP: " + ex->Message,
-			"Erro", MessageBoxButtons::OK, MessageBoxIcon::Error);
-	}
 }
 	  
 	   public: bool switchToLista = false;

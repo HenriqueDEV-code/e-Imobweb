@@ -42,12 +42,11 @@ namespace eImobweb {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Panel^ panel1;
+
 	protected:
 
 
 
-	private: System::Windows::Forms::Label^ label1;
 
 
 
@@ -65,7 +64,8 @@ namespace eImobweb {
 
 
 
-	private: System::Windows::Forms::PictureBox^ pictureBox3;
+
+
 
 
 	private: System::Windows::Forms::Label^ label2;
@@ -146,6 +146,9 @@ private: System::Windows::Forms::DataGridViewTextBoxColumn^ TipoNegocio;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ valor;
 private: System::Windows::Forms::Panel^ panel2;
 private: System::Windows::Forms::DataGridView^ dataGridView2;
+private: System::Windows::Forms::Label^ label1;
+private: System::Windows::Forms::PictureBox^ pictureBox3;
+private: System::Windows::Forms::Panel^ panel1;
 
 
 
@@ -165,9 +168,6 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(ListaDeImoveisForm::typeid));
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->tBidFiltro = (gcnew System::Windows::Forms::TextBox());
 			this->label3 = (gcnew System::Windows::Forms::Label());
@@ -204,45 +204,16 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->tBTelefoneFiltro = (gcnew System::Windows::Forms::TextBox());
 			this->tBnomeFiltro = (gcnew System::Windows::Forms::TextBox());
 			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->panel1->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->panel3->SuspendLayout();
 			this->panel2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
+			this->panel1->SuspendLayout();
 			this->SuspendLayout();
-			// 
-			// panel1
-			// 
-			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->panel1->Controls->Add(this->pictureBox3);
-			this->panel1->Controls->Add(this->label1);
-			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
-			this->panel1->Location = System::Drawing::Point(0, 0);
-			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1904, 113);
-			this->panel1->TabIndex = 0;
-			// 
-			// pictureBox3
-			// 
-			this->pictureBox3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(10, 10);
-			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(97, 75);
-			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox3->TabIndex = 3;
-			this->pictureBox3->TabStop = false;
-			// 
-			// label1
-			// 
-			this->label1->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 20.25F));
-			this->label1->Location = System::Drawing::Point(113, 29);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(1677, 43);
-			this->label1->TabIndex = 2;
-			this->label1->Text = L"Lista de Imóveis Cadastrados";
-			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// label2
 			// 
@@ -578,6 +549,38 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->label7->TabIndex = 50;
 			this->label7->Text = L"Id do cliente";
 			// 
+			// label1
+			// 
+			this->label1->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 20.25F));
+			this->label1->Location = System::Drawing::Point(113, 29);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(1677, 43);
+			this->label1->TabIndex = 2;
+			this->label1->Text = L"Lista de Imóveis Cadastrados";
+			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// pictureBox3
+			// 
+			this->pictureBox3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
+			this->pictureBox3->Location = System::Drawing::Point(10, 10);
+			this->pictureBox3->Name = L"pictureBox3";
+			this->pictureBox3->Size = System::Drawing::Size(97, 75);
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox3->TabIndex = 3;
+			this->pictureBox3->TabStop = false;
+			// 
+			// panel1
+			// 
+			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->panel1->Controls->Add(this->pictureBox3);
+			this->panel1->Controls->Add(this->label1);
+			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
+			this->panel1->Location = System::Drawing::Point(0, 0);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(1904, 113);
+			this->panel1->TabIndex = 0;
+			// 
 			// ListaDeImoveisForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -591,13 +594,13 @@ private: System::Windows::Forms::DataGridView^ dataGridView2;
 			this->Text = L"e-Imobweb";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &ListaDeImoveisForm::ListaDeImoveisForm_Load);
-			this->panel1->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->panel3->ResumeLayout(false);
 			this->panel3->PerformLayout();
 			this->panel2->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
+			this->panel1->ResumeLayout(false);
 			this->ResumeLayout(false);
 
 		}
